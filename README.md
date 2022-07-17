@@ -2,11 +2,6 @@
 
 > Interesting processing on video and photos using Python
 
-## Download
-
-You can download the source of these codes from this link [image processing](https://github.com/ALItaheri1380/ImageProcessing/releases/download/0.1.0/ImageProcessing-release.rar)
-
-
 ### Description
 The subjects of these codes are:
 
