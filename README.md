@@ -15,5 +15,12 @@ The subjects of these codes are:
 ### Some sample photos(which are not personal, you can run the codes to test them)
 
 ![hand](https://user-images.githubusercontent.com/98982133/179424369-7ccfad0a-233f-4891-a2fe-e07673d11400.png)
+
+
 ![FACE](https://user-images.githubusercontent.com/98982133/179424561-ebcd830a-be9a-4627-92cd-330f1e6c9b2d.jpg)
+
+
 ![photo1658094597](https://user-images.githubusercontent.com/98982133/179426142-2342ae44-367b-4412-8727-e43f5a9afdad.jpeg)
+
+
+![photo1658094986](https://user-images.githubusercontent.com/98982133/179426287-c42a3061-0515-433e-a1a8-cec5f131cc7c.jpeg)
