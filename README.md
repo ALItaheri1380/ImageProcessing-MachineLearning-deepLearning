@@ -2,13 +2,6 @@
 
 > Interesting processing on video and photos using Python
 
-## subjects
-
-- Multi-Player (Using socket)
-- Amazing UI
-- Cross Platform
-- Sqlite Database
-
 ## Download
 
 You can download the source of these codes from this link [image processing](https://github.com/ALItaheri1380/ImageProcessing.git)
