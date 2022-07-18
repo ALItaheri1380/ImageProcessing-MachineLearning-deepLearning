@@ -22,7 +22,7 @@ The subjects of these codes are:
 ![hand](https://user-images.githubusercontent.com/98982133/179424369-7ccfad0a-233f-4891-a2fe-e07673d11400.png)
 
 
-##faceDetector
+## faceDetector
 
 
 
