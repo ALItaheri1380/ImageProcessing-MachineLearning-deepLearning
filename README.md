@@ -61,7 +61,7 @@ The subjects of these codes are:
 ### plate_detection
 
 
-## Reading a text (in different languages) for example a car license plate
+> Reading a text (in different languages) for example a car license plate
 
 
 ![h](https://user-images.githubusercontent.com/98982133/179608242-4b87dbfa-68f8-472e-95a1-2ef868f9159f.png)
