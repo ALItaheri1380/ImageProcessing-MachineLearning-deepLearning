@@ -24,3 +24,9 @@ The subjects of these codes are:
 
 
 ![photo1658094986](https://user-images.githubusercontent.com/98982133/179426287-c42a3061-0515-433e-a1a8-cec5f131cc7c.jpeg)
+
+
+![photo1658127767](https://user-images.githubusercontent.com/98982133/179459917-d8ddef66-a880-4764-9f1a-2cf1a3245c1c.jpeg)
+
+
+![photo1658127700](https://user-images.githubusercontent.com/98982133/179459940-fb4414e2-4910-4619-85c8-aee9688675a7.jpeg)
