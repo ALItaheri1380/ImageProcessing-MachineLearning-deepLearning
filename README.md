@@ -12,7 +12,8 @@ The subjects of these codes are:
 
 *Note that for some codes, you have to give them the desired link yourself
 
-### Some sample photos(which are not personal, you can run the codes to test them)
+### All these pine examples are screenshots taken from a webcam and a webcam is needed to run each of the codes
+
 
 ![hand](https://user-images.githubusercontent.com/98982133/179424369-7ccfad0a-233f-4891-a2fe-e07673d11400.png)
 
