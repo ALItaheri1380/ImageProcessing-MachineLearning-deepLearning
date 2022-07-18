@@ -49,7 +49,7 @@ The subjects of these codes are:
 
 ![photo1658127700](https://user-images.githubusercontent.com/98982133/179459940-fb4414e2-4910-4619-85c8-aee9688675a7.jpeg)
 
-## templte machin
+## template machin
 
 
 ![112](https://user-images.githubusercontent.com/98982133/179502509-3d94ad7c-61ee-4699-ad04-279810d1e753.png)
