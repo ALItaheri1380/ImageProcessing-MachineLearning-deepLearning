@@ -91,4 +91,6 @@ We may want to recognize the nature of an animal or object, for example, to find
 ## Read text by pytesseract
 
 
-![photo1658265787](https://user-images.githubusercontent.com/98982133/179851028-2762f628-cb5d-48ec-a2db-2066aba82500.jpeg)
+![photo1658265897](https://user-images.githubusercontent.com/98982133/179851338-dfd68156-6ddf-4d38-8355-9e426c3007c7.jpeg)
+![photo1658265912](https://user-images.githubusercontent.com/98982133/179851400-2e015c88-2396-4a6e-9aba-29eb41a419b1.jpeg)
+
