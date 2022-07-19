@@ -1,4 +1,8 @@
-# opencv
+# opencv and deep learning
+
+
+## opencv
+
 
 > Interesting processing on video and photos using Python
 
@@ -65,3 +69,14 @@ The subjects of these codes are:
 
 
 ![h](https://user-images.githubusercontent.com/98982133/179608242-4b87dbfa-68f8-472e-95a1-2ef868f9159f.png)
+
+
+
+## Deep learning
+
+>Identifying an object or animal using deep learning
+
+### Description
+
+
+We may want to recognize the nature of an animal or object, for example, to find out what kind of animal or object the photo we want is (dog or cat, etc.)
