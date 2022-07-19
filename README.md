@@ -78,4 +78,5 @@ The subjects of these codes are:
 
 ### Description
 
-## We may want to recognize the nature of an animal or object, for example, to find out what kind of animal or object the photo we want is (dog or cat, etc.)
+
+We may want to recognize the nature of an animal or object, for example, to find out what kind of animal or object the photo we want is (dog or cat, etc.)
