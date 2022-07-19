@@ -1,4 +1,4 @@
-# opencv
+# opencv and deep learning
 
 > Interesting processing on video and photos using Python
 
