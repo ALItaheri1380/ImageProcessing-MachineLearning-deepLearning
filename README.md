@@ -80,3 +80,17 @@ The subjects of these codes are:
 
 
 We may want to recognize the nature of an animal or object, for example, to find out what kind of animal or object the photo we want is (dog or cat, etc.)
+
+
+## image classification
+
+
+![photo1658265613](https://user-images.githubusercontent.com/98982133/179850660-1c54cdb5-15b8-414f-bcfe-b1f951fd5183.jpeg)
+
+
+## Read text by pytesseract
+
+
+![photo1658265897](https://user-images.githubusercontent.com/98982133/179851338-dfd68156-6ddf-4d38-8355-9e426c3007c7.jpeg)
+![photo1658265912](https://user-images.githubusercontent.com/98982133/179851400-2e015c88-2396-4a6e-9aba-29eb41a419b1.jpeg)
+
