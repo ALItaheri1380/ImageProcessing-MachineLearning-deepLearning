@@ -4,7 +4,7 @@ import cv2 as cv
 
 camera = cv.VideoCapture(0)
 
-detector = HandDetector(0.5 , 2)
+detector = HandDetector(0.5 , 4)
 
 while(True):
 
