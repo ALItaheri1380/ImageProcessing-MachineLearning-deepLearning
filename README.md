@@ -23,7 +23,7 @@ The subjects of these codes are:
 ## handgesture
 
 
-![hand](https://user-images.githubusercontent.com/98982133/179424369-7ccfad0a-233f-4891-a2fe-e07673d11400.png)
+![hand_gesture](https://user-images.githubusercontent.com/98982133/183730040-c9021f9d-8e31-4904-b013-58c46ca3df3a.png)
 
 
 ## faceDetector
