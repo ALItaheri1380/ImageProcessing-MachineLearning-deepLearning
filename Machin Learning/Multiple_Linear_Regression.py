@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn import linear_model
 
-df=pd.read_csv('rg.csv')
+df=pd.read_csv('Multiple_Linear_Regression.csv')
 
 Reg=linear_model.LinearRegression()
 
