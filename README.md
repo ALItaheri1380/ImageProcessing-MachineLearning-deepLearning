@@ -107,3 +107,13 @@ We may want to recognize the nature of an animal or object, for example, to find
 
 
 ### Description
+
+The subjects of these codes are:
+
+1. one hot encoding algorithm.
+2. Logistic_Regression(Two types).
+3. Nonlinear Regression.
+4. TrainTest split.
+5. Simple linear regression.
+6. Multiple Linear Regression
+7. Decision Tree
