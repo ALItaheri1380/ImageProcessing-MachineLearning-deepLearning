@@ -94,3 +94,16 @@ We may want to recognize the nature of an animal or object, for example, to find
 ![photo1658265897](https://user-images.githubusercontent.com/98982133/179851338-dfd68156-6ddf-4d38-8355-9e426c3007c7.jpeg)
 ![photo1658265912](https://user-images.githubusercontent.com/98982133/179851400-2e015c88-2396-4a6e-9aba-29eb41a419b1.jpeg)
 
+
+## Remove objects from photos or videos
+
+![remove](https://user-images.githubusercontent.com/98982133/183724316-c727b5d3-91a4-44b2-b5b5-f48ef6e105ea.png)
+
+
+
+
+
+## Machine Learning
+
+
+### Description
