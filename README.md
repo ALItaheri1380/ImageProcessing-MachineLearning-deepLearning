@@ -115,5 +115,38 @@ The subjects of these codes are:
 3. Nonlinear Regression.
 4. TrainTest split.
 5. Simple linear regression.
-6. Multiple Linear Regression
-7. Decision Tree
+6. Multiple Linear Regression.
+7. Decision Tree.
+
+
+## one hot encoding algorithm:
+
+
+![oneHote](https://user-images.githubusercontent.com/98982133/183727543-9ec1a08d-cb0d-4569-bfa5-66c0f7eb3e06.png)
+
+
+## Logistic_Regression:
+
+
+![logistic](https://user-images.githubusercontent.com/98982133/183727645-740d5ea4-2f2d-4fca-a7b6-c29a742c524d.png)
+
+## Nonlinear Regression:
+
+![Nonlinear_Regression](https://user-images.githubusercontent.com/98982133/183727715-eff938f3-94d9-46be-9305-77f323bf5ca5.png)
+
+
+## TrainTest split:
+
+![Train_Test_split](https://user-images.githubusercontent.com/98982133/183727834-e1b901c8-3fa2-4f8b-a34f-9e912e0cf83d.png)
+
+## Simple linear regression:
+
+![Simple_linear_regression](https://user-images.githubusercontent.com/98982133/183727902-a905236c-e73d-431c-b478-1a6b985a5064.png)
+
+## Multiple Linear Regression:
+
+![Multiple_Linear_Regression](https://user-images.githubusercontent.com/98982133/183727966-e97f5c24-73a2-47f3-bc29-21138205c249.png)
+
+## Decision Tree:
+
+![Decision_Tree](https://user-images.githubusercontent.com/98982133/183728108-5cdd1ed8-fbab-4a30-b4c3-7832b6560a76.png)
