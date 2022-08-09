@@ -36,7 +36,8 @@ The subjects of these codes are:
 ## EyeAndSmile
 
 
-![photo1658094597](https://user-images.githubusercontent.com/98982133/179426142-2342ae44-367b-4412-8727-e43f5a9afdad.jpeg)
+![EyeAndSmile](https://user-images.githubusercontent.com/98982133/183731323-a51bf7dc-9472-4e03-a66d-575ce6b98d1d.png)
+
 
 
 ## face_encoding
