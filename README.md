@@ -49,10 +49,9 @@ The subjects of these codes are:
 ## movingobjectDetector
 
 
-![photo1658127767](https://user-images.githubusercontent.com/98982133/179459917-d8ddef66-a880-4764-9f1a-2cf1a3245c1c.jpeg)
+![movingobjectDetector](https://user-images.githubusercontent.com/98982133/183732391-2cde7d81-0c3b-4b10-86bc-86a742f13fa0.png)
 
 
-![photo1658127700](https://user-images.githubusercontent.com/98982133/179459940-fb4414e2-4910-4619-85c8-aee9688675a7.jpeg)
 
 ## template machin
 
