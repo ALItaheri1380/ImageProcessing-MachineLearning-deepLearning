@@ -42,8 +42,8 @@ The subjects of these codes are:
 
 ## face_encoding
 
+![face_encoding](https://user-images.githubusercontent.com/98982133/183731956-c8462a37-a61d-4aab-8b15-8d1e203e8d40.png)
 
-![photo1658094986](https://user-images.githubusercontent.com/98982133/179426287-c42a3061-0515-433e-a1a8-cec5f131cc7c.jpeg)
 
 
 ## movingobjectDetector
