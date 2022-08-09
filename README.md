@@ -29,8 +29,8 @@ The subjects of these codes are:
 ## faceDetector
 
 
+![faceDetector](https://user-images.githubusercontent.com/98982133/183729247-6195bd3d-1fb9-4aa4-ba24-bf9f1f059094.png)
 
-![FACE](https://user-images.githubusercontent.com/98982133/179424561-ebcd830a-be9a-4627-92cd-330f1e6c9b2d.jpg)
 
 
 ## EyeAndSmile
