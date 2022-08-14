@@ -19,6 +19,9 @@ The subjects of these codes are:
 ### All these pine examples are screenshots taken from a webcam and a webcam is needed to run each of the codes
 
 
+
+
+
 ## Detecting_Improper_Sitting
 
 ![MediaPipe-pose-feature-image](https://user-images.githubusercontent.com/98982133/184558382-dd4864cc-57b3-4a66-b0df-cb12dd33c33e.gif)
