@@ -27,6 +27,12 @@ The subjects of these codes are:
 ![MediaPipe-pose-feature-image](https://user-images.githubusercontent.com/98982133/184558382-dd4864cc-57b3-4a66-b0df-cb12dd33c33e.gif)
 
 
+## Body Posture Detection
+
+
+![BodyPostureDetection](https://user-images.githubusercontent.com/98982133/184558489-1dfe871c-be28-4161-88b2-132bdd0e5bcd.png)
+
+
 ## handgesture
 
 
