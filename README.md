@@ -1,7 +1,7 @@
 # opencv,deep learning and machine Learning
 
 
-## opencv
+## image processing
 
 
 > Interesting processing on video and photos using Python
