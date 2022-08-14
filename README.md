@@ -19,6 +19,10 @@ The subjects of these codes are:
 ### All these pine examples are screenshots taken from a webcam and a webcam is needed to run each of the codes
 
 
+## Detecting_Improper_Sitting
+
+![Uploading MediaPipe-pose-feature-image.gif…]()
+
 
 ## handgesture
 
