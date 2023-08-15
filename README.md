@@ -24,8 +24,7 @@ The subjects of these codes are:
 
 ## Detecting_Improper_Sitting
 
-![MediaPipe-pose-feature-image](https://user-images.githubusercontent.com/98982133/184558382-dd4864cc-57b3-4a66-b0df-cb12dd33c33e.gif)
-
+![photo_2023-08-16_02-03-44](https://github.com/ALItaheri1380/ImageProcessing-MachineLearning-deepLearning/assets/98982133/4b638adf-6110-49f6-a72c-c97e8010b1a3)
 
 ## Body Posture Detection
 
