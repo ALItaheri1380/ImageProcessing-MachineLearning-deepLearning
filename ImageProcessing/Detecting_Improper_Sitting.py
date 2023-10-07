@@ -103,7 +103,7 @@ while True:
             time_string_bad = 'Bad Posture Time : ' + str(round(bad_time, 1)) + 's'
             cv.putText(image, time_string_bad, (10, h - 20), cv.FONT_HERSHEY_SIMPLEX, 0.9, (50, 50, 255), 2)
 
-        if bad_time > 10:
+        if bad_time > 5:
             win32api.Beep(2000 , 1000)
 
         cv.imshow('body position', image)
