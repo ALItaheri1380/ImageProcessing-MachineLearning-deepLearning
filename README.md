@@ -137,3 +137,6 @@ The subjects of these codes are:
 
 
 ## Cancer Prediction using logistic regression
+> Using logistic regression, we find out whether a tumor is malignant or benign
+![Annotation 2024-07-19 180815](https://github.com/user-attachments/assets/ea7909a0-960f-4c41-ac33-ff73ddbcf166)
+
