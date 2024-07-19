@@ -1,4 +1,4 @@
-# opencv,deep learning and machine Learning
+# computer vision, deep learning
 
 
 ## image processing
@@ -115,3 +115,22 @@ We may want to recognize the nature of an animal or object, for example, to find
 ## Remove objects from photos or videos or webcam
 
 ![remove](https://user-images.githubusercontent.com/98982133/183724316-c727b5d3-91a4-44b2-b5b5-f48ef6e105ea.png)
+
+# Deep learning
+
+### Description
+The subjects of these codes are:
+
+1. Cancer Prediction using logistic regression
+2. Read number from image by Cnn
+3. Nationality prediction from a name by Rnn
+4. Extract text from image
+5. Student Grade Prediction by mlp
+6. Image Classification
+7. A very simple method to remove objects from photos
+8. Text classification for comments about the hotel (by NLP)
+
+
+
+
+## Cancer Prediction using logistic regression
