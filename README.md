@@ -170,3 +170,16 @@ First, we remove the noises, find the range of numbers with the dfs algorithm, c
 If you run the code, you will see that the accuracy of this method is 100% and there are no errors
 
 ![ResultImage_5_35](https://github.com/user-attachments/assets/56365a2c-e727-4acf-94be-a09c9c9fbc9c)
+
+
+### HW4: Solve a puzzle
+
+Solving a puzzle whose pieces are messed up, my method calculate the psnr of the edges and check which one has the most similarity and put the same piece of the puzzle in that place.
+
+> Messed up image:
+
+![Shuffled_Patches](https://github.com/user-attachments/assets/07bebbc2-e265-476f-83ab-f527247ec30b)
+
+> Result
+
+![photo_2024-07-19_21-00-56](https://github.com/user-attachments/assets/d6d46f1d-d7a5-4b56-a667-aac681740361)
