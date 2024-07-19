@@ -1,6 +1,61 @@
 # computer vision, deep learning
 
+## Deep learning
 
+### Description
+The subjects of these codes are:
+
+1. Cancer Prediction using logistic regression
+2. Read number from image by Cnn
+3. Nationality prediction from a name by Rnn
+4. Extract text from image
+5. Student Grade Prediction by mlp
+6. Image Classification
+7. A very simple method to remove objects from photos
+8. Text classification for comments about the hotel (by NLP)
+
+
+
+
+## Cancer Prediction using logistic regression
+
+> Using logistic regression, we find out whether a tumor is malignant or benign
+
+![Annotation 2024-07-19 182442](https://github.com/user-attachments/assets/5993291c-c416-4225-bdae-e974f8357d35)
+
+## Read number from image by Cnn
+
+![Annotation 2024-07-19 182319](https://github.com/user-attachments/assets/9a5e8e86-1e40-49b4-b574-f910d4dcc2ae)
+
+## Nationality prediction from a name by Rnn
+
+![photo_2024-07-19_18-28-18](https://github.com/user-attachments/assets/48a2fd97-1c0a-40ad-8ed7-ba9dc225c6bd)
+
+
+## Student Grade Prediction by mlp
+
+![feduc-08-1106679-g005](https://github.com/user-attachments/assets/2ce3c80d-97fe-4d0b-ab7a-7328e1a496fc)
+
+
+## image classification
+We may want to recognize the nature of an animal or object, for example, to find out what kind of animal or object the photo we want is (dog or cat, etc.)
+
+
+![photo1658265613](https://user-images.githubusercontent.com/98982133/179850660-1c54cdb5-15b8-414f-bcfe-b1f951fd5183.jpeg)
+
+
+## Read text by pytesseract
+
+
+![photo1658265897](https://user-images.githubusercontent.com/98982133/179851338-dfd68156-6ddf-4d38-8355-9e426c3007c7.jpeg)
+![photo1658265912](https://user-images.githubusercontent.com/98982133/179851400-2e015c88-2396-4a6e-9aba-29eb41a419b1.jpeg)
+
+
+## Remove objects from photos or videos or webcam
+
+![remove](https://user-images.githubusercontent.com/98982133/183724316-c727b5d3-91a4-44b2-b5b5-f48ef6e105ea.png)
+
+--------------------------------------------------------------------------------------------------------------------
 ## image processing
 
 
@@ -86,62 +141,5 @@ The subjects of these codes are:
 
 
 ![h](https://user-images.githubusercontent.com/98982133/179608242-4b87dbfa-68f8-472e-95a1-2ef868f9159f.png)
-
---------------------------------------------------------------------------------------------------------------------
-
-# Deep learning
-
-### Description
-The subjects of these codes are:
-
-1. Cancer Prediction using logistic regression
-2. Read number from image by Cnn
-3. Nationality prediction from a name by Rnn
-4. Extract text from image
-5. Student Grade Prediction by mlp
-6. Image Classification
-7. A very simple method to remove objects from photos
-8. Text classification for comments about the hotel (by NLP)
-
-
-
-
-## Cancer Prediction using logistic regression
-
-> Using logistic regression, we find out whether a tumor is malignant or benign
-
-![Annotation 2024-07-19 182442](https://github.com/user-attachments/assets/5993291c-c416-4225-bdae-e974f8357d35)
-
-## Read number from image by Cnn
-
-![Annotation 2024-07-19 182319](https://github.com/user-attachments/assets/9a5e8e86-1e40-49b4-b574-f910d4dcc2ae)
-
-## Nationality prediction from a name by Rnn
-
-![photo_2024-07-19_18-28-18](https://github.com/user-attachments/assets/48a2fd97-1c0a-40ad-8ed7-ba9dc225c6bd)
-
-
-## Student Grade Prediction by mlp
-
-![feduc-08-1106679-g005](https://github.com/user-attachments/assets/2ce3c80d-97fe-4d0b-ab7a-7328e1a496fc)
-
-
-## image classification
-We may want to recognize the nature of an animal or object, for example, to find out what kind of animal or object the photo we want is (dog or cat, etc.)
-
-
-![photo1658265613](https://user-images.githubusercontent.com/98982133/179850660-1c54cdb5-15b8-414f-bcfe-b1f951fd5183.jpeg)
-
-
-## Read text by pytesseract
-
-
-![photo1658265897](https://user-images.githubusercontent.com/98982133/179851338-dfd68156-6ddf-4d38-8355-9e426c3007c7.jpeg)
-![photo1658265912](https://user-images.githubusercontent.com/98982133/179851400-2e015c88-2396-4a6e-9aba-29eb41a419b1.jpeg)
-
-
-## Remove objects from photos or videos or webcam
-
-![remove](https://user-images.githubusercontent.com/98982133/183724316-c727b5d3-91a4-44b2-b5b5-f48ef6e105ea.png)
 
 
