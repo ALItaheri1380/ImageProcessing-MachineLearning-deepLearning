@@ -146,3 +146,6 @@ The subjects of these codes are:
 
 ![Annotation 2024-07-19 182319](https://github.com/user-attachments/assets/9a5e8e86-1e40-49b4-b574-f910d4dcc2ae)
 
+## Nationality prediction from a name by Rnn
+
+![photo_2024-07-19_18-28-18](https://github.com/user-attachments/assets/48a2fd97-1c0a-40ad-8ed7-ba9dc225c6bd)
