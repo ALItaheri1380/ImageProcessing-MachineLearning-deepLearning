@@ -137,7 +137,7 @@ The subjects of these codes are:
 ### plate_detection
 
 
-> Reading a text (in different languages) for example a car license plate
+Reading a text (in different languages) for example a car license plate
 
 
 ![h](https://user-images.githubusercontent.com/98982133/179608242-4b87dbfa-68f8-472e-95a1-2ef868f9159f.png)
@@ -152,7 +152,7 @@ The subjects of these codes are:
 
 ### HW2: Image resizing
 
-> Methods used: 1. Bilinear, 2. Chessboard_Distance, 3. CityBlock_Distance, 4. Euclidean_Distance, 5. Neighbor, 6. My method(As can be seen in the report file, a significant increase in accuracy is observed)
+Methods used: 1. Bilinear, 2. Chessboard_Distance, 3. CityBlock_Distance, 4. Euclidean_Distance, 5. Neighbor, 6. My method(As can be seen in the report file, a significant increase in accuracy is observed)
 
 ![Annotation 2024-07-19 211611](https://github.com/user-attachments/assets/08348de4-aeb0-4131-a1ab-cca46bb816d3)
 
