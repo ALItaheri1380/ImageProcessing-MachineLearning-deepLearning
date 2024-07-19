@@ -141,3 +141,8 @@ The subjects of these codes are:
 > Using logistic regression, we find out whether a tumor is malignant or benign
 
 ![canc](https://github.com/user-attachments/assets/8cca6d6e-47f1-4d9e-ad28-24d892ed74d6)
+
+## Read number from image by Cnn
+
+![Annotation 2024-07-19 182319](https://github.com/user-attachments/assets/9a5e8e86-1e40-49b4-b574-f910d4dcc2ae)
+
