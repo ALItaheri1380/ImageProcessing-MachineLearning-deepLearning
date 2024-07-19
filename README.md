@@ -149,3 +149,7 @@ The subjects of these codes are:
 ## Nationality prediction from a name by Rnn
 
 ![photo_2024-07-19_18-28-18](https://github.com/user-attachments/assets/48a2fd97-1c0a-40ad-8ed7-ba9dc225c6bd)
+
+## Extract text from image by pytesseract
+
+![Annotation 2024-07-19 183221](https://github.com/user-attachments/assets/f33ca72a-7ef3-46fe-a974-50db2f9fac6a)
