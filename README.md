@@ -153,3 +153,7 @@ The subjects of these codes are:
 ## Extract text from image by pytesseract
 
 ![Annotation 2024-07-19 183221](https://github.com/user-attachments/assets/f33ca72a-7ef3-46fe-a974-50db2f9fac6a)
+
+## Student Grade Prediction by mlp
+
+![feduc-08-1106679-g005](https://github.com/user-attachments/assets/2ce3c80d-97fe-4d0b-ab7a-7328e1a496fc)
