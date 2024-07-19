@@ -178,7 +178,8 @@ Solving a puzzle whose pieces are messed up, my method calculate the psnr of the
 
 > Messed up image:
 
-![Shuffled_Patches](https://github.com/user-attachments/assets/07bebbc2-e265-476f-83ab-f527247ec30b)
+![Uploading Shuffled_Patches.png…]()
+
 
 > Result
 
