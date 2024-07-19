@@ -156,7 +156,7 @@ Methods used: 1. Bilinear, 2. Chessboard_Distance, 3. CityBlock_Distance, 4. Euc
 
 ![Annotation 2024-07-19 211611](https://github.com/user-attachments/assets/08348de4-aeb0-4131-a1ab-cca46bb816d3)
 
-### HW3: Image denoising(salt and pepper)
+### HW3: part one: Image denoising(salt and pepper), part two: Removing noise from the photo and adding Persian numbers and displaying the result
 
 My innovative method is very accurate even against 90% noise and as can be seen in the report file, its psnr is much better than the famous methods.
 
