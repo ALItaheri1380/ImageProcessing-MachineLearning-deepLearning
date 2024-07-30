@@ -137,9 +137,50 @@ The subjects of these codes are:
 ### plate_detection
 
 
-> Reading a text (in different languages) for example a car license plate
+Reading a text (in different languages) for example a car license plate
 
 
 ![h](https://user-images.githubusercontent.com/98982133/179608242-4b87dbfa-68f8-472e-95a1-2ef868f9159f.png)
 
 
+## Computer vision assignment 
+
+### HW1: Steganography
+
+![Annotation 2024-07-19 211409](https://github.com/user-attachments/assets/7c088d9b-c282-4646-84d8-b35883808186)
+
+
+### HW2: Image resizing
+
+Methods used: 1. Bilinear, 2. Chessboard_Distance, 3. CityBlock_Distance, 4. Euclidean_Distance, 5. Neighbor, 6. My method(As can be seen in the report file, a significant increase in accuracy is observed)
+
+![Annotation 2024-07-19 211611](https://github.com/user-attachments/assets/08348de4-aeb0-4131-a1ab-cca46bb816d3)
+
+### HW3: part one: Image denoising(salt and pepper), part two: Removing noise from the photo and adding Persian numbers and displaying the result
+> part one:
+
+My innovative method is very accurate even against 90% noise and as can be seen in the report file, its psnr is much better than the famous methods.
+
+![Annotation 2024-07-19 211115](https://github.com/user-attachments/assets/dfa62089-e9f7-41c7-aab3-d8fe58e78dfc)
+
+> part two:
+
+First, we remove the noises, find the range of numbers with the dfs algorithm, compare with the template photos and see which number it is, if it was red, it means positive, and if it was blue, it means negative (note that the photos are different sizes and we must use the resize algorithm) and place the result at the bottom of the photo (green number)
+
+If you run the code, you will see that the accuracy of this method is 100% and there are no errors
+
+![ResultImage_5_35](https://github.com/user-attachments/assets/56365a2c-e727-4acf-94be-a09c9c9fbc9c)
+
+
+### HW4: Solve a puzzle
+
+Solving a puzzle whose pieces are messed up, my method calculate the psnr of the edges and check which one has the most similarity and put the same piece of the puzzle in that place.
+
+> Messed up image:
+
+![photo_2024-07-19_22-04-45](https://github.com/user-attachments/assets/3183448c-162d-4c09-8157-e7fae0487578)
+
+
+> Result
+
+![photo_2024-07-19_21-00-56](https://github.com/user-attachments/assets/d6d46f1d-d7a5-4b56-a667-aac681740361)
