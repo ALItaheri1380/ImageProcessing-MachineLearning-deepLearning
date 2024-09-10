@@ -1,19 +1,18 @@
-# computer vision, deep learning
+## Computer Vision and Deep Learning Projects
 
-## Deep learning
+Table of Contents:
 
-### Description
-The subjects of these codes are:
+1. Deep Learning
+    * VAE for MNIST Dataset
+    * Cancer Prediction using Logistic Regression
+    * Read Number from Image by CNN
+    * Nationality Prediction from a Name by RNN
+    * Extract Text from Image
+    * Student Grade Prediction by MLP
+    * Image Classification
+    * A Simple Method to Remove Objects from Photos
+    * Text Classification for Hotel Comments (NLP)
 
-1. VAE for mnist dataset
-2. Cancer Prediction using logistic regression
-3. Read number from image by Cnn
-4. Nationality prediction from a name by Rnn
-5. Extract text from image
-6. Student Grade Prediction by mlp
-7. Image Classification
-8. A very simple method to remove objects from photos
-9. Text classification for comments about the hotel (by NLP)
 
 
 # VAE for mnist dataset
