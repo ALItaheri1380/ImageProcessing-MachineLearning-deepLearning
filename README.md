@@ -537,18 +537,46 @@ The code performs the following tasks:
 
 ---------------
 
-## face_encoding
 
-![face_encoding](https://user-images.githubusercontent.com/98982133/183731956-c8462a37-a61d-4aab-8b15-8d1e203e8d40.png)
-
-
-
-## movingobjectDetector
+# Moving Object Detection with OpenCV
 
 
 ![movingobjectDetector](https://user-images.githubusercontent.com/98982133/183732391-2cde7d81-0c3b-4b10-86bc-86a742f13fa0.png)
 
 
+## Overview
+
+This project demonstrates moving object detection using OpenCV. The provided Python script uses background subtraction techniques to identify and track moving objects in video streams.
+
+## Code Overview
+
+The code performs the following tasks:
+
+1. **Setup**: Initializes the video capture and background subtractor.
+2. **Capture Video**: Reads frames from a video source (e.g., webcam).
+3. **Moving Object Detection**:
+   - Applies background subtraction to detect moving objects.
+   - Highlights detected moving objects with contours.
+4. **Display Results**: Shows the processed video feed with moving objects highlighted.
+
+## Instructions
+
+1. **Install Dependencies**:
+   ```bash
+   pip install opencv-python
+   ```
+
+2. **Download the Script**: Access the Python script from [movingobjectDetector.py](https://github.com/ALItaheri1380/ImageProcessing-MachineLearning-deepLearning/blob/main/ImageProcessing/movingobjectDetector.py).
+
+3. **Run the Script**:
+   - Execute the script to start detecting moving objects from the video source (e.g., webcam).
+   ```bash
+   python movingobjectDetector.py
+   ```
+
+4. **Usage**: The script will display the video feed with moving objects highlighted. Press 'q' to exit the video feed.
+
+----------------------
 
 ## template machin
 
