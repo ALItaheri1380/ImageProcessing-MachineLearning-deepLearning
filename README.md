@@ -416,7 +416,12 @@ This project employs OpenCV to detect and analyze body posture in real-time. The
 ----------
 ### Eye Tracking
 
-This project demonstrates a simple eye tracking system using OpenCV and CVZone libraries. The system captures video from a webcam, detects faces and facial landmarks, and tracks the movement of the eyes to determine their gaze direction.
+
+![Annotation 2024-09-10 165539](https://github.com/user-attachments/assets/5f17734c-c5d3-4633-b901-e9a5692d90cd)
+
+
+
+This project demonstrates a eye tracking system using OpenCV and CVZone libraries. The system captures video from a webcam, detects faces and facial landmarks, and tracks the movement of the eyes to determine their gaze direction.
 
 #### Overview
 
