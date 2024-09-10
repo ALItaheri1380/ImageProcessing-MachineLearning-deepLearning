@@ -10,6 +10,7 @@ Table of Contents:
     * [Nationality Prediction from Names Using RNN](#nationality-Prediction-from-Names-Using-RNN)
     * [Student Grade Prediction Using Multi-Layer Perceptron](#Student-Grade-Prediction-Using-Multi-Layer-Perceptron)
     * [Image Classification](#image-classification)
+    * [Read Text by Pytesseract](#read-text-by-pytesseract)
     * [Extract Text from Image](#extract-text-from-image)
     * [A Simple Method to Remove Objects from Photos](#a-simple-method-to-remove-objects-from-photos)
     * [Text Classification for Hotel Comments (NLP)](#text-classification-for-hotel-comments-nlp)
