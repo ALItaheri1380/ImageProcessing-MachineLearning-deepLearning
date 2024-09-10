@@ -629,6 +629,10 @@ The code performs the following tasks:
 
 # seam carving for content-aware image resizing
 
+
+![Annotation 2024-09-10 152601](https://github.com/user-attachments/assets/cb6169fd-97ad-4ebf-b6f8-127c8ae3f55d)
+
+
 **Seam carving** is a technique used for content-aware image resizing. Instead of uniformly shrinking or expanding an image, seam carving intelligently removes or adds pixels along paths of least importance, allowing important features (like people or objects) to remain undistorted.
 
 ### Key Concepts:
