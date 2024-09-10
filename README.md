@@ -302,11 +302,15 @@ The dataset used for this project consists of 15,000 hotel comments, which are s
 4. **Model Training**: Train a classification model (e.g., Logistic Regression, Random Forest, or a Neural Network) to predict the rating.
 5. **Evaluation**: Evaluate the model’s performance using metrics such as accuracy, precision, recall, and F1 score.
 6. **Prediction**: Use the trained model to predict ratings for new comments.
-7. 
+
+   
 --------------------------------------------------------------------------------------------------------------------
 
 
-## Computer Vision
+## **Computer Vision**
+
+
+
 
 ### Detecting Improper Sitting with Computer Vision
 
