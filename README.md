@@ -5,7 +5,7 @@
 ### Description
 The subjects of these codes are:
 
-1. VAE for MNIST dataset
+**VAE for mnist dataset**
 2. Cancer Prediction using logistic regression
 3. Read number from image by Cnn
 4. Nationality prediction from a name by Rnn
