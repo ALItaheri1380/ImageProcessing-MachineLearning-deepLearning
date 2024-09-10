@@ -578,22 +578,53 @@ The code performs the following tasks:
 
 ----------------------
 
-## template machin
+# Template Matching with OpenCV
 
+## Overview
+
+This project demonstrates template matching using OpenCV. The provided Python script finds and highlights occurrences of a template image within a main image.
+
+## Code Overview
+
+The code performs the following tasks:
+
+1. **Load Images**:
+   - Loads the main image and the template image in grayscale.
+
+2. **Template Matching**:
+   - Applies template matching using OpenCV's `matchTemplate` function.
+   - Identifies locations in the main image where the template matches.
+
+3. **Highlight Matches**:
+   - Draws rectangles around detected matches of the template in the main image.
+
+4. **Display Results**:
+   - Displays the processed main image with highlighted matches.
+
+## Instructions
+
+1. **Install Dependencies**:
+   ```bash
+   pip install numpy opencv-python
+   ```
+
+2. **Prepare Images**:
+   - Place the main image (`1.jpg`) and template image (`2.jpg`) in the same directory as the script.
+
+3. **Run the Script**:
+   - Execute the script to perform template matching and visualize the results.
+   ```bash
+   python template_matching.py
+   ```
+
+4. **Usage**: The script will display the main image with rectangles drawn around the detected areas where the template matches. Press any key to close the displayed image window.
 
 ![112](https://user-images.githubusercontent.com/98982133/179502509-3d94ad7c-61ee-4699-ad04-279810d1e753.png)
 
 
-
 ![12](https://user-images.githubusercontent.com/98982133/179502918-fe0304c0-38cc-4358-9be1-19bf12dc97dd.jpeg)
 
-### plate_detection
-
-
-Reading a text (in different languages) for example a car license plate
-
-
-![h](https://user-images.githubusercontent.com/98982133/179608242-4b87dbfa-68f8-472e-95a1-2ef868f9159f.png)
+------- 
 
 # seam carving for content-aware image resizing
 
