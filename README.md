@@ -723,22 +723,58 @@ This project demonstrates various image resizing techniques using MATLAB. The pr
 
 ------------
 
+# Image Denoising and Persian Number Recognition with MATLAB
 
-### HW3: part one: Image denoising(salt and pepper), part two: Removing noise from the photo and adding Persian numbers and displaying the result
-> part one:
+## Overview
 
-My innovative method is very accurate even against 90% noise and as can be seen in the report file, its psnr is much better than the famous methods.
+This project consists of two parts:
+1. **Image Denoising**: Implements various methods to remove salt-and-pepper noise from images, including a custom innovative method that outperforms conventional methods.
+2. **Noise Removal and Number Recognition**: Removes remaining noise, identifies Persian numbers using template matching, and annotates the results on the image.
+
+## Part One: Image Denoising
+
+- **Methods**:
+  - Implements standard methods for removing salt-and-pepper noise.
+  - **Innovative Method**: A novel approach with superior accuracy and higher PSNR even against 90% noise, as demonstrated in the report.
+
 
 ![Annotation 2024-07-19 211115](https://github.com/user-attachments/assets/dfa62089-e9f7-41c7-aab3-d8fe58e78dfc)
 
-> part two:
 
-First, we remove the noises, find the range of numbers with the dfs algorithm, compare with the template photos and see which number it is, if it was red, it means positive, and if it was blue, it means negative (note that the photos are different sizes and we must use the resize algorithm) and place the result at the bottom of the photo (green number)
+## Part Two: Noise Removal and Persian Number Recognition
 
-If you run the code, you will see that the accuracy of this method is 100% and there are no errors
+- **Noise Removal**: Applies advanced techniques to clean up the image after initial denoising.
+- **Number Recognition**:
+  - Uses Depth-First Search (DFS) to find number ranges in the image.
+  - Compares detected numbers with template images to classify them.
+  - Determines positivity (red) or negativity (blue) of numbers.
+  - Resizes numbers to match templates and annotates the result (green) at the bottom of the image.
+
 
 ![ResultImage_5_35](https://github.com/user-attachments/assets/56365a2c-e727-4acf-94be-a09c9c9fbc9c)
 
+
+## Code Overview
+
+- **Denoising**: Provides implementations for various denoising methods and evaluates their performance.
+- **Recognition and Annotation**: Processes images to identify Persian numbers and display results with accuracy.
+
+## Instructions
+
+1. **Prepare MATLAB**:
+   - Ensure MATLAB is installed on your system.
+
+2. **Run the Code**:
+   - Open the MATLAB scripts for each part and execute them.
+   - For part one, observe the denoising results and PSNR values.
+   - For part two, review the noise removal, number recognition, and annotation results.
+
+3. **Usage**:
+   - Provide the input images as required.
+   - Follow the script instructions to view results and analyze performance.
+
+
+-------------
 
 ### HW4: Solve a puzzle
 
