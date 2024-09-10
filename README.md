@@ -53,7 +53,26 @@ A **Variational Autoencoder (VAE)** is a type of generative model that can learn
 
 5. **Train the VAE**:
    Train the model using both reconstruction loss and KL divergence to ensure that the latent space is organized and can generate valid images.
+   
+-----
+# GAN for MNIST and CIFAR-10 dataset
+A **Generative Adversarial Network (GAN)** is a type of neural network architecture used to generate new data points from an existing dataset. GANs consist of two components:
 
+1. **Generator**: Generates fake samples from random noise.
+2. **Discriminator**: Distinguishes between real and fake samples.
+
+These two networks are trained simultaneously: the generator tries to fool the discriminator by generating realistic data, while the discriminator tries to correctly identify real vs. fake data. Over time, the generator gets better at creating realistic data.
+
+Let's walk through how to implement a GAN for both the **MNIST** (handwritten digits) and **CIFAR-10** (natural images) datasets using TensorFlow/Keras.
+
+### Steps:
+1. **Load the Dataset**: For both MNIST and CIFAR-10.
+2. **Build the Generator**: A neural network that generates fake images from random noise.
+3. **Build the Discriminator**: A neural network that classifies images as real or fake.
+4. **GAN Model**: The combination of generator and discriminator.
+5. **Training Loop**: Train the generator and discriminator iteratively.
+   
+------
 
 ## Cancer Prediction using logistic regression
 
