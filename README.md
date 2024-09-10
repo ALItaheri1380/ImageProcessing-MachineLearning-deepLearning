@@ -80,9 +80,50 @@ Let's walk through how to implement a GAN for both the **MNIST** (handwritten di
 
 ## Cancer Prediction using logistic regression
 
-> Using logistic regression, we find out whether a tumor is malignant or benign
+Here's a short README for your cancer prediction project using logistic regression:
+
+---
+
+# Cancer Prediction using Logistic Regression
 
 ![Annotation 2024-07-19 182442](https://github.com/user-attachments/assets/5993291c-c416-4225-bdae-e974f8357d35)
+
+
+## Overview
+
+This project implements a logistic regression model to predict cancer diagnoses based on patient data. The data is read from a CSV file and includes various patient attributes related to cancer.
+
+## Dataset
+
+The dataset used for training and testing the model includes the following columns:
+
+- **S/N**: Serial number
+- **Year**: Year of data collection
+- **Age**: Age of the patient
+- **Menopause**: Menopause status (1 for post-menopausal, 0 for pre-menopausal)
+- **Tumor Size (cm)**: Size of the tumor in centimeters
+- **Inv-Nodes**: Number of lymph nodes with cancer
+- **Breast**: Side of the breast (Left or Right)
+- **Metastasis**: Presence of metastasis (1 for yes, 0 for no)
+- **Breast Quadrant**: Quadrant of the breast where the tumor is located
+- **History**: Family history of cancer (1 for yes, 0 for no)
+- **Diagnosis Result**: Result of the diagnosis (Benign or Malignant)
+
+## Instructions
+
+1. **Data Preparation**: Ensure that the dataset is in CSV format and properly formatted with the columns as described above.
+
+2. **Loading the Data**: Use a library like `pandas` to read the CSV file into a DataFrame.
+
+3. **Feature Selection**: Choose relevant features for the logistic regression model and preprocess the data as necessary (e.g., encoding categorical variables).
+
+4. **Model Training**: Split the data into training and testing sets. Train the logistic regression model using the training set.
+
+5. **Evaluation**: Evaluate the model's performance using metrics such as accuracy, precision, recall, and the ROC curve.
+
+6. **Prediction**: Use the trained model to make predictions on new data.
+
+-------
 
 ## Read number from image by Cnn
 
