@@ -216,19 +216,19 @@ The dataset contains features related to student performance and the target vari
 
 -------
 
-## image classification
+### image classification
 
 ![photo1658265613](https://user-images.githubusercontent.com/98982133/179850660-1c54cdb5-15b8-414f-bcfe-b1f951fd5183.jpeg)
 
-## Overview
+#### Overview
 
 This project focuses on image classification using TensorFlow. The goal is to recognize and classify different types of animals or objects from images. For example, the model can identify whether an image contains a dog, cat, or other specified categories.
 
-## Dataset
+#### Dataset
 
 The dataset consists of labeled images of various animals or objects(CIFAR-10). Each image is tagged with its corresponding class label, such as 'dog', 'cat', or other categories. Ensure that the dataset is well-organized and split into training and test sets.
 
-## Instructions
+#### Instructions
 
 1. **Data Preparation**: Organize and preprocess the dataset. This may involve resizing images, normalizing pixel values, and augmenting the data to improve model performance. Ensure that images are labeled correctly and stored in a structured format.
 
@@ -244,7 +244,7 @@ The dataset consists of labeled images of various animals or objects(CIFAR-10). 
 
 ----------------------
 
-## Read text by pytesseract
+### Read text by pytesseract
 ![photo1658265897](https://user-images.githubusercontent.com/98982133/179851338-dfd68156-6ddf-4d38-8355-9e426c3007c7.jpeg)
 ![photo1658265912](https://user-images.githubusercontent.com/98982133/179851400-2e015c88-2396-4a6e-9aba-29eb41a419b1.jpeg)
 
@@ -252,7 +252,7 @@ This project uses PyTesseract, an OCR (Optical Character Recognition) tool, to e
 
 -------
 
-### Remove objects from photos or videos or webcam
+### A Simple Method to Remove Objects from Photos
 
 ![remove](https://user-images.githubusercontent.com/98982133/183724316-c727b5d3-91a4-44b2-b5b5-f48ef6e105ea.png)
 
