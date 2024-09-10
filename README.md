@@ -244,8 +244,6 @@ The dataset consists of labeled images of various animals or objects(CIFAR-10). 
 ![photo1658265897](https://user-images.githubusercontent.com/98982133/179851338-dfd68156-6ddf-4d38-8355-9e426c3007c7.jpeg)
 ![photo1658265912](https://user-images.githubusercontent.com/98982133/179851400-2e015c88-2396-4a6e-9aba-29eb41a419b1.jpeg)
 
-### Overview
-
 This project uses PyTesseract, an OCR (Optical Character Recognition) tool, to extract text from images. PyTesseract is a Python wrapper for Google's Tesseract-OCR Engine.
 
 ## Remove objects from photos or videos or webcam
@@ -253,10 +251,9 @@ This project uses PyTesseract, an OCR (Optical Character Recognition) tool, to e
 ![remove](https://user-images.githubusercontent.com/98982133/183724316-c727b5d3-91a4-44b2-b5b5-f48ef6e105ea.png)
 
 --------------------------------------------------------------------------------------------------------------------
-## image processing
+# image processing
 
-
-> Interesting processing on video and photos using Python
+##Interesting processing on video and photos using Python
 
 ### Description
 The subjects of these codes are:
