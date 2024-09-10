@@ -59,7 +59,7 @@ A **Variational Autoencoder (VAE)** is a type of generative model that can learn
 
 #### Applying VAE to MNIST
 
-##### Steps:
+#### Steps:
 
 1. **Load the MNIST dataset**:
    MNIST is a dataset of handwritten digits. Each image is 28x28 pixels, grayscale, and labeled with the corresponding digit (0-9).
@@ -309,7 +309,7 @@ The dataset used for this project consists of 15,000 hotel comments, which are s
 
 ## **Computer Vision**
 
-# seam carving for content-aware image resizing
+### seam carving for content-aware image resizing
 
 
 ![Annotation 2024-09-10 152601](https://github.com/user-attachments/assets/cb6169fd-97ad-4ebf-b6f8-127c8ae3f55d)
@@ -317,7 +317,7 @@ The dataset used for this project consists of 15,000 hotel comments, which are s
 
 **Seam carving** is a technique used for content-aware image resizing. Instead of uniformly shrinking or expanding an image, seam carving intelligently removes or adds pixels along paths of least importance, allowing important features (like people or objects) to remain undistorted.
 
-### Key Concepts:
+#### Key Concepts:
 
 1. **Seams**: A seam is a connected path of pixels that extends from one side of the image to the opposite side (top to bottom or left to right). The seam is chosen to have the least significance (based on some energy function).
    
@@ -327,7 +327,7 @@ The dataset used for this project consists of 15,000 hotel comments, which are s
 
 4. **Seam Insertion**: To enlarge an image, seams with the lowest energy can be duplicated, which adds pixels to the image without distorting key features.
 
-### Steps of Seam Carving:
+#### Steps of Seam Carving:
 1. **Compute Energy Map**: 
    - An energy map is created by calculating the gradient magnitude of the image. This highlights areas of high importance (like edges).
    
@@ -384,22 +384,22 @@ The code performs the following tasks:
 
 -------------------
 
-# Body Posture Detection with OpenCV
+### Body Posture Detection with OpenCV
 
 ![BodyPostureDetection](https://user-images.githubusercontent.com/98982133/184558489-1dfe871c-be28-4161-88b2-132bdd0e5bcd.png)
 
 
-## Overview
+#### Overview
 
 This project employs OpenCV to detect and analyze body posture in real-time. The system captures video input and evaluates body alignment to determine if the posture is correct or incorrect.
 
-## Key Features
+#### Key Features
 
 - **Real-Time Detection**: Analyzes video frames to assess body posture.
 - **Pose Estimation**: Uses OpenCV's capabilities to identify key body landmarks.
 - **Posture Feedback**: Provides visual feedback on posture alignment.
 
-## Instructions
+#### Instructions
 
 1. **Install Dependencies**:
    ```bash
@@ -415,18 +415,18 @@ This project employs OpenCV to detect and analyze body posture in real-time. The
 
 ----------
 
-# Hand Gesture Recognition with OpenCV and CVZone
+### Hand Gesture Recognition with OpenCV and CVZone
 
 
 ![hand_gesture](https://user-images.githubusercontent.com/98982133/183730040-c9021f9d-8e31-4904-b013-58c46ca3df3a.png)
 
 
 
-## Overview
+#### Overview
 
 This project demonstrates hand gesture recognition using OpenCV and the CVZone library. The system captures video input, detects hand gestures, and calculates the distance between specific hand landmarks.
 
-## Code Overview
+#### Code Overview
 
 The code performs the following tasks:
 
@@ -462,16 +462,16 @@ The code performs the following tasks:
 ------------------
 
 
-# Picture Colorization
+### Picture Colorization
 
 ![colorizepicture](https://user-images.githubusercontent.com/98982133/185639463-7ad5d466-05e0-459c-bc52-0d29e20cdcb2.png)
 
 
-## Overview
+#### Overview
 
 This project demonstrates how to colorize black-and-white images using advanced image processing techniques. The provided Jupyter Notebook guides you through the process of applying color to grayscale images.
 
-## Code Overview
+#### Code Overview
 
 The code in the Jupyter Notebook performs the following tasks:
 
@@ -479,7 +479,7 @@ The code in the Jupyter Notebook performs the following tasks:
 2. **Colorization Model**: Applies a pre-trained model or colorization algorithm to add color to the grayscale images.
 3. **Display Results**: Shows the colorized images alongside the original grayscale images for comparison.
 
-## Instructions
+#### Instructions
 
 1. **Install Dependencies**:
    ```bash
@@ -496,17 +496,17 @@ The code in the Jupyter Notebook performs the following tasks:
 
 ----
 
-# Face Detection with OpenCV
+### Face Detection with OpenCV
 
 
 ![faceDetector](https://user-images.githubusercontent.com/98982133/183729247-6195bd3d-1fb9-4aa4-ba24-bf9f1f059094.png)
 
 
-## Overview
+#### Overview
 
 This project demonstrates face detection using OpenCV. The provided Python script utilizes pre-trained Haar Cascade Classifiers to detect faces in images.
 
-## Code Overview
+#### Code Overview
 
 The code performs the following tasks:
 
@@ -517,7 +517,7 @@ The code performs the following tasks:
    - Draws rectangles around detected faces.
 4. **Display Results**: Shows the processed image with detected faces highlighted.
 
-## Instructions
+#### Instructions
 
 1. **Install Dependencies**:
    ```bash
@@ -537,11 +537,11 @@ The code performs the following tasks:
 
 ----------
 
-## Overview
+#### Overview
 
 This project demonstrates face detection using OpenCV. The provided Python script utilizes OpenCV's pre-trained Haar Cascade Classifier to detect faces in images or video streams.
 
-## Code Overview
+#### Code Overview
 
 The code performs the following tasks:
 
@@ -552,7 +552,7 @@ The code performs the following tasks:
    - Draws rectangles around detected faces.
 4. **Display Results**: Shows the processed image or video feed with detected faces highlighted.
 
-## Instructions
+#### Instructions
 
 1. **Install Dependencies**:
    ```bash
@@ -574,17 +574,17 @@ The code performs the following tasks:
 -------
 
 
-# Eye and Smile Detection with OpenCV
+### Eye and Smile Detection with OpenCV
 
 
 ![EyeAndSmile](https://user-images.githubusercontent.com/98982133/183731323-a51bf7dc-9472-4e03-a66d-575ce6b98d1d.png)
 
 
-## Overview
+#### Overview
 
 This project demonstrates eye and smile detection using OpenCV. The provided Python script utilizes pre-trained Haar Cascade Classifiers to detect eyes and smiles in images or video streams.
 
-## Code Overview
+#### Code Overview
 
 The code performs the following tasks:
 
@@ -595,7 +595,7 @@ The code performs the following tasks:
    - Draws rectangles around detected eyes and smiles.
 4. **Display Results**: Shows the processed image or video feed with detected eyes and smiles highlighted.
 
-## Instructions
+#### Instructions
 
 1. **Install Dependencies**:
    ```bash
@@ -616,17 +616,17 @@ The code performs the following tasks:
 ---------------
 
 
-# Moving Object Detection with OpenCV
+### Moving Object Detection with OpenCV
 
 
 ![movingobjectDetector](https://user-images.githubusercontent.com/98982133/183732391-2cde7d81-0c3b-4b10-86bc-86a742f13fa0.png)
 
 
-## Overview
+#### Overview
 
 This project demonstrates moving object detection using OpenCV. The provided Python script uses background subtraction techniques to identify and track moving objects in video streams.
 
-## Code Overview
+#### Code Overview
 
 The code performs the following tasks:
 
@@ -637,7 +637,7 @@ The code performs the following tasks:
    - Highlights detected moving objects with contours.
 4. **Display Results**: Shows the processed video feed with moving objects highlighted.
 
-## Instructions
+#### Instructions
 
 1. **Install Dependencies**:
    ```bash
@@ -656,7 +656,7 @@ The code performs the following tasks:
 
 ----------------------
 
-# Template Matching with OpenCV
+### Template Matching with OpenCV
 
 ![112](https://user-images.githubusercontent.com/98982133/179502509-3d94ad7c-61ee-4699-ad04-279810d1e753.png)
 
@@ -664,11 +664,11 @@ The code performs the following tasks:
 ![12](https://user-images.githubusercontent.com/98982133/179502918-fe0304c0-38cc-4358-9be1-19bf12dc97dd.jpeg)
 
 
-## Overview
+#### Overview
 
 This project demonstrates template matching using OpenCV. The provided Python script finds and highlights occurrences of a template image within a main image.
 
-## Code Overview
+#### Code Overview
 
 The code performs the following tasks:
 
@@ -685,7 +685,7 @@ The code performs the following tasks:
 4. **Display Results**:
    - Displays the processed main image with highlighted matches.
 
-## Instructions
+#### Instructions
 
 1. **Install Dependencies**:
    ```bash
@@ -705,22 +705,22 @@ The code performs the following tasks:
 
 ------- 
 
-# Computer vision assignment 
+## Computer vision assignment 
 
-## Steganography with MATLAB
+#### Steganography with MATLAB
 
 ![Annotation 2024-07-19 211409](https://github.com/user-attachments/assets/7c088d9b-c282-4646-84d8-b35883808186)
 
-### Overview
+#### Overview
 
 This project demonstrates steganography techniques using MATLAB. The provided MATLAB code hides information within an image.
 
-### Code Overview
+#### Code Overview
 
 - **Embed Information**: Hides a secret message or data within a cover image.
 - **Extract Information**: Retrieves the hidden message or data from the stego image.
 
-### Instructions
+#### Instructions
 
 1. **Prepare MATLAB**:
    - Ensure you have MATLAB installed.
@@ -733,17 +733,17 @@ This project demonstrates steganography techniques using MATLAB. The provided MA
 
 -----
 
-## Image Resizing with MATLAB
+#### Image Resizing with MATLAB
 
 
 ![Annotation 2024-07-19 211611](https://github.com/user-attachments/assets/08348de4-aeb0-4131-a1ab-cca46bb816d3)
 
 
-### Overview
+#### Overview
 
 This project demonstrates various image resizing techniques using MATLAB. The provided MATLAB code implements and compares multiple resizing methods, including custom approaches.
 
-### Methods Used
+#### Methods Used
 
 1. **Bilinear**: Interpolation method that considers the closest four pixels to determine the new pixel value.
 2. **Chessboard Distance**: Resizing using a chessboard distance metric.
@@ -752,12 +752,12 @@ This project demonstrates various image resizing techniques using MATLAB. The pr
 5. **Neighbor**: Nearest-neighbor interpolation method.
 6. **Custom Method**: A novel resizing technique with improved accuracy as noted in the report.
 
-### Code Overview
+#### Code Overview
 
 - **Image Resizing**: Implements and applies the aforementioned resizing methods.
 - **Comparison**: Compares the performance and accuracy of each resizing technique.
 
-### Instructions
+#### Instructions
 
 1. **Prepare MATLAB**:
    - Ensure you have MATLAB installed.
@@ -770,15 +770,15 @@ This project demonstrates various image resizing techniques using MATLAB. The pr
 
 ------------
 
-# Image Denoising and Persian Number Recognition with MATLAB
+### Image Denoising and Persian Number Recognition with MATLAB
 
-## Overview
+#### Overview
 
 This project consists of two parts:
 1. **Image Denoising**: Implements various methods to remove salt-and-pepper noise from images, including a custom innovative method that outperforms conventional methods.
 2. **Noise Removal and Number Recognition**: Removes remaining noise, identifies Persian numbers using template matching, and annotates the results on the image.
 
-## Part One: Image Denoising
+#### Part One: Image Denoising
 
 - **Methods**:
   - Implements standard methods for removing salt-and-pepper noise.
@@ -788,7 +788,7 @@ This project consists of two parts:
 ![Annotation 2024-07-19 211115](https://github.com/user-attachments/assets/dfa62089-e9f7-41c7-aab3-d8fe58e78dfc)
 
 
-## Part Two: Noise Removal and Persian Number Recognition
+#### Part Two: Noise Removal and Persian Number Recognition
 
 - **Noise Removal**: Applies advanced techniques to clean up the image after initial denoising.
 - **Number Recognition**:
@@ -801,12 +801,12 @@ This project consists of two parts:
 ![ResultImage_5_35](https://github.com/user-attachments/assets/56365a2c-e727-4acf-94be-a09c9c9fbc9c)
 
 
-## Code Overview
+#### Code Overview
 
 - **Denoising**: Provides implementations for various denoising methods and evaluates their performance.
 - **Recognition and Annotation**: Processes images to identify Persian numbers and display results with accuracy.
 
-## Instructions
+#### Instructions
 
 1. **Prepare MATLAB**:
    - Ensure MATLAB is installed on your system.
@@ -824,13 +824,13 @@ This project consists of two parts:
 -------------
 
 
-# Jigsaw Puzzle Solver with MATLAB
+### Jigsaw Puzzle Solver with MATLAB
 
-## Overview
+#### Overview
 
 This project focuses on solving jigsaw puzzles by arranging pieces based on edge similarity. The provided MATLAB code uses PSNR (Peak Signal-to-Noise Ratio) to match edges and correctly place puzzle pieces.
 
-## Code Overview
+### Code Overview
 
 - **Edge Matching**: Calculates the PSNR of the edges between puzzle pieces to determine which pieces fit best together.
 - **Puzzle Assembly**: Places each puzzle piece in its correct position based on edge similarity.
