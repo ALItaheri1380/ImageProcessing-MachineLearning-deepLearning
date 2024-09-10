@@ -16,7 +16,7 @@ The subjects of these codes are:
 9. Text classification for comments about the hotel (by NLP)
 
 
-## VAE for mnist dataset
+# VAE for mnist dataset
 
 ![Annotation 2024-09-10 140639](https://github.com/user-attachments/assets/f1e9b659-b5e0-476c-810a-50431ebdaf43)
 
@@ -78,7 +78,7 @@ Let's walk through how to implement a GAN for both the **MNIST** (handwritten di
    
 ------
 
-## Cancer Prediction using logistic regression
+# Cancer Prediction using logistic regression
 
 ![Annotation 2024-07-19 182442](https://github.com/user-attachments/assets/5993291c-c416-4225-bdae-e974f8357d35)
 
@@ -119,9 +119,38 @@ The dataset used for training and testing the model includes the following colum
 
 -------
 
-## Read number from image by Cnn
+# Number Reading from Images Using Convolutional Neural Networks (CNN)
 
 ![Annotation 2024-07-19 182319](https://github.com/user-attachments/assets/9a5e8e86-1e40-49b4-b574-f910d4dcc2ae)
+
+## Overview
+
+This project utilizes a Convolutional Neural Network (CNN) to read and classify numbers and symbols from images. The dataset contains images labeled with various classes, including digits and special characters.
+
+## Dataset
+
+The dataset consists of 60,000 images with the following classes:
+
+- **Digits**: '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
+- **Special Characters**: 'dot', 'minus', 'plus', 'slash', 'x', 'y', 'z', 'w'
+
+Each image in the dataset is labeled according to one of these classes.
+
+## Instructions
+
+1. **Data Preparation**: Ensure the dataset of 60,000 images is organized and labeled correctly. The images should be accessible in a format suitable for loading into the CNN model.
+
+2. **Loading the Data**: Use `PyTorch` library  to load and preprocess the images. Normalize the images and perform any necessary data augmentation.
+
+3. **Model Architecture**: Define the architecture of the CNN. Typical layers include convolutional layers, activation functions, pooling layers, and fully connected layers.
+
+4. **Training the Model**: Split the dataset into training and validation sets. Train the CNN model using the training set, monitoring its performance on the validation set.
+
+5. **Evaluation**: Evaluate the model's performance using metrics such as accuracy and loss. Fine-tune the model parameters as needed.
+
+6. **Prediction**: Use the trained model to predict classes for new images.
+
+----------------
 
 ## Nationality prediction from a name by Rnn
 
