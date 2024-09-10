@@ -306,7 +306,7 @@ The dataset used for this project consists of 15,000 hotel comments, which are s
 --------------------------------------------------------------------------------------------------------------------
 
 
-## Computer Viosion
+## Computer Vision
 
 ### Detecting Improper Sitting with Computer Vision
 
