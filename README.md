@@ -580,6 +580,12 @@ The code performs the following tasks:
 
 # Template Matching with OpenCV
 
+![112](https://user-images.githubusercontent.com/98982133/179502509-3d94ad7c-61ee-4699-ad04-279810d1e753.png)
+
+
+![12](https://user-images.githubusercontent.com/98982133/179502918-fe0304c0-38cc-4358-9be1-19bf12dc97dd.jpeg)
+
+
 ## Overview
 
 This project demonstrates template matching using OpenCV. The provided Python script finds and highlights occurrences of a template image within a main image.
@@ -618,11 +624,6 @@ The code performs the following tasks:
    ```
 
 4. **Usage**: The script will display the main image with rectangles drawn around the detected areas where the template matches. Press any key to close the displayed image window.
-
-![112](https://user-images.githubusercontent.com/98982133/179502509-3d94ad7c-61ee-4699-ad04-279810d1e753.png)
-
-
-![12](https://user-images.githubusercontent.com/98982133/179502918-fe0304c0-38cc-4358-9be1-19bf12dc97dd.jpeg)
 
 ------- 
 
