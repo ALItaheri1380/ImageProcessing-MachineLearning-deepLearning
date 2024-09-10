@@ -776,15 +776,23 @@ This project consists of two parts:
 
 -------------
 
-### HW4: Solve a puzzle
 
-Solving a puzzle whose pieces are messed up, my method calculate the psnr of the edges and check which one has the most similarity and put the same piece of the puzzle in that place.
+# Jigsaw Puzzle Solver with MATLAB
 
-> Messed up image:
+## Overview
+
+This project focuses on solving jigsaw puzzles by arranging pieces based on edge similarity. The provided MATLAB code uses PSNR (Peak Signal-to-Noise Ratio) to match edges and correctly place puzzle pieces.
+
+## Code Overview
+
+- **Edge Matching**: Calculates the PSNR of the edges between puzzle pieces to determine which pieces fit best together.
+- **Puzzle Assembly**: Places each puzzle piece in its correct position based on edge similarity.
+- 
+input image:
 
 ![photo_2024-07-19_22-04-45](https://github.com/user-attachments/assets/3183448c-162d-4c09-8157-e7fae0487578)
 
 
-> Result
+**Result**
 
 ![photo_2024-07-19_21-00-56](https://github.com/user-attachments/assets/d6d46f1d-d7a5-4b56-a667-aac681740361)
