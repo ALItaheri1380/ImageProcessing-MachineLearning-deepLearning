@@ -5,16 +5,51 @@
 ### Description
 The subjects of these codes are:
 
-1. Cancer Prediction using logistic regression
-2. Read number from image by Cnn
-3. Nationality prediction from a name by Rnn
-4. Extract text from image
-5. Student Grade Prediction by mlp
-6. Image Classification
-7. A very simple method to remove objects from photos
-8. Text classification for comments about the hotel (by NLP)
+1. VAE for MNIST dataset
+2. Cancer Prediction using logistic regression
+3. Read number from image by Cnn
+4. Nationality prediction from a name by Rnn
+5. Extract text from image
+6. Student Grade Prediction by mlp
+7. Image Classification
+8. A very simple method to remove objects from photos
+9. Text classification for comments about the hotel (by NLP)
 
 
+## VAE for mnist dataset
+
+A **Variational Autoencoder (VAE)** is a type of generative model that can learn to encode data (like images) into a compressed latent space and then decode it back to reconstruct the original input. VAEs are particularly useful for generating new data samples similar to the input data. Let's discuss the concept and how a VAE can be applied to the MNIST dataset.
+
+### Overview of VAE:
+
+1. **Encoder**: This part of the model takes an input (e.g., an MNIST digit image) and maps it to a distribution in the latent space (usually a normal distribution). Instead of encoding the input directly as a single point in the latent space, the encoder outputs parameters of a distribution (mean and variance).
+
+2. **Latent Space**: This is a lower-dimensional space where the data is represented. A VAE learns to represent the input data distribution in this space, making it easier to sample new data points.
+
+3. **Decoder**: The decoder maps points from the latent space back to the original data space. Given a point in the latent space, the decoder tries to reconstruct an image (e.g., an MNIST digit).
+
+4. **Loss Function**: The VAE uses a combination of two losses:
+   - **Reconstruction Loss**: Measures how well the reconstructed output matches the input (e.g., pixel-wise difference between original and generated images).
+   - **KL Divergence Loss**: Measures how close the learned latent space distribution is to a prior distribution (typically a standard normal distribution).
+
+### Applying VAE to MNIST
+
+#### Steps:
+
+1. **Load the MNIST dataset**:
+   MNIST is a dataset of handwritten digits. Each image is 28x28 pixels, grayscale, and labeled with the corresponding digit (0-9).
+
+2. **Define the Encoder**:
+   The encoder takes the input image and outputs two vectors, representing the mean and log variance of the latent distribution.
+
+3. **Latent Sampling**:
+   Use the mean and variance to sample from the latent space using the "reparameterization trick," which allows gradients to flow during backpropagation.
+
+4. **Define the Decoder**:
+   The decoder takes samples from the latent space and tries to reconstruct the original image.
+
+5. **Train the VAE**:
+   Train the model using both reconstruction loss and KL divergence to ensure that the latent space is organized and can generate valid images.
 
 
 ## Cancer Prediction using logistic regression
