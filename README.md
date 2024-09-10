@@ -418,12 +418,47 @@ The code in the Jupyter Notebook performs the following tasks:
 
 ----
 
-
-## faceDetector
+# Face Detection with OpenCV
 
 
 ![faceDetector](https://user-images.githubusercontent.com/98982133/183729247-6195bd3d-1fb9-4aa4-ba24-bf9f1f059094.png)
 
+
+## Overview
+
+This project demonstrates face detection using OpenCV. The provided Python script utilizes OpenCV's pre-trained Haar Cascade Classifier to detect faces in images or video streams.
+
+## Code Overview
+
+The code performs the following tasks:
+
+1. **Setup**: Initializes the Haar Cascade Classifier for face detection.
+2. **Load Image or Video**: Captures images or video frames from the specified source.
+3. **Face Detection**:
+   - Processes each frame to detect faces using the Haar Cascade Classifier.
+   - Draws rectangles around detected faces.
+4. **Display Results**: Shows the processed image or video feed with detected faces highlighted.
+
+## Instructions
+
+1. **Install Dependencies**:
+   ```bash
+   pip install opencv-python
+   ```
+
+2. **Download the Script**: Access the Python script from [faceDetector.py](https://github.com/ALItaheri1380/ImageProcessing-MachineLearning-deepLearning/blob/main/ImageProcessing/faceDetector.py).
+
+3. **Run the Script**:
+   - To detect faces in an image, modify the script to read from an image file.
+   - To detect faces in a video stream, run the script to capture video from a camera or video file.
+   ```bash
+   python faceDetector.py
+   ```
+
+4. **Usage**: The script will display the image or video feed with detected faces highlighted. Press 'q' to exit the video feed.
+
+
+-------
 
 
 ## EyeAndSmile
