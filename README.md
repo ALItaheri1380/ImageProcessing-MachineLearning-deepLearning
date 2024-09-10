@@ -6,7 +6,7 @@ Table of Contents:
     * [VAE for mnist dataset](#vae-for-mnist-dataset)
     * [GAN for MNIST and CIFAR-10 dataset](#GAN-for-MNIST-and-CIFAR-10-dataset)
     * [Cancer Prediction using Logistic Regression](#cancer-prediction-using-logistic-regression)
-    * [Number Reading from Images Using Convolutional Neural Networks (CNN)](#Number-Reading-from-Images-Using-Convolutional-Neural-Networks-(CNN))
+    * [Number Reading from Images Using Convolutional Neural Networks (CNN)](#Number-Reading-from-Images-Using-Convolutional-Neural-Networks)
     * [Nationality Prediction from a Name by RNN](#nationality-prediction-from-a-name-by-rnn)
     * [Extract Text from Image](#extract-text-from-image)
     * [Student Grade Prediction by MLP](#student-grade-prediction-by-mlp)
