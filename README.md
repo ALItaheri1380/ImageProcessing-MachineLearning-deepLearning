@@ -16,6 +16,8 @@ Table of Contents:
 
 # **Deep Learning**
 
+-----------------
+-----------------
 ## VAE for mnist dataset
 
 ![Annotation 2024-09-10 140639](https://github.com/user-attachments/assets/f1e9b659-b5e0-476c-810a-50431ebdaf43)
