@@ -178,10 +178,37 @@ The dataset consists of names labeled with their corresponding nationalities. Ea
 
 6. **Prediction**: Use the trained RNN model to predict the nationality of new names.
 
-## Student Grade Prediction by mlp
+----------
+
+# Student Grade Prediction Using Multi-Layer Perceptron (MLP)
 
 ![feduc-08-1106679-g005](https://github.com/user-attachments/assets/2ce3c80d-97fe-4d0b-ab7a-7328e1a496fc)
 
+
+## Overview
+
+This project uses a Multi-Layer Perceptron (MLP) to predict student grades based on various input features. The MLP model is trained to make predictions on student performance by learning from historical data.
+
+## Dataset
+
+The dataset contains features related to student performance and the target variable is the student's grade. Each record includes input features such as study hours, sleep hours
+, and other relevant attributes.
+
+## Instructions
+
+1. **Data Preparation**: Ensure that the dataset is organized with relevant features and the target variable (grades). The dataset should be in a format compatible with the provided code, typically CSV or similar.
+
+2. **Loading the Data**: Use the provided Jupyter Notebook to load and preprocess the dataset. This includes handling missing values, encoding categorical variables, and splitting the data into training and test sets.
+
+3. **Model Architecture**: The notebook defines an MLP model with one or more hidden layers. Review the architecture and adjust the number of layers, neurons, activation functions, and other parameters as needed.
+
+4. **Training the Model**: Train the MLP model using the training dataset. Monitor performance metrics such as accuracy or mean squared error on the validation set.
+
+5. **Evaluation**: Evaluate the model's performance on the test set using metrics such as accuracy, mean squared error, or R-squared. Fine-tune the model parameters as necessary to improve performance.
+
+6. **Prediction**: Use the trained MLP model to make predictions on new student data.
+
+-------
 
 ## image classification
 We may want to recognize the nature of an animal or object, for example, to find out what kind of animal or object the photo we want is (dog or cat, etc.)
