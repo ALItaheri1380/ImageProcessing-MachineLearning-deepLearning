@@ -14,21 +14,21 @@ Table of Contents:
     * [Text Classification for Hotel Comments (NLP)](#text-classification-for-hotel-comments-nlp)
 
 
-# **Deep Learning**
+## **Deep Learning**
 
 
 
 <hr style="border: 2px solid #000;">
 
 
-## VAE for mnist dataset
+### VAE for mnist dataset
 
 ![Annotation 2024-09-10 140639](https://github.com/user-attachments/assets/f1e9b659-b5e0-476c-810a-50431ebdaf43)
 
 
 A **Variational Autoencoder (VAE)** is a type of generative model that can learn to encode data (like images) into a compressed latent space and then decode it back to reconstruct the original input. VAEs are particularly useful for generating new data samples similar to the input data. Let's discuss the concept and how a VAE can be applied to the MNIST dataset.
 
-### Overview of VAE:
+#### Overview of VAE:
 
 1. **Encoder**: This part of the model takes an input (e.g., an MNIST digit image) and maps it to a distribution in the latent space (usually a normal distribution). Instead of encoding the input directly as a single point in the latent space, the encoder outputs parameters of a distribution (mean and variance).
 
@@ -40,9 +40,9 @@ A **Variational Autoencoder (VAE)** is a type of generative model that can learn
    - **Reconstruction Loss**: Measures how well the reconstructed output matches the input (e.g., pixel-wise difference between original and generated images).
    - **KL Divergence Loss**: Measures how close the learned latent space distribution is to a prior distribution (typically a standard normal distribution).
 
-### Applying VAE to MNIST
+#### Applying VAE to MNIST
 
-#### Steps:
+##### Steps:
 
 1. **Load the MNIST dataset**:
    MNIST is a dataset of handwritten digits. Each image is 28x28 pixels, grayscale, and labeled with the corresponding digit (0-9).
@@ -60,7 +60,7 @@ A **Variational Autoencoder (VAE)** is a type of generative model that can learn
    Train the model using both reconstruction loss and KL divergence to ensure that the latent space is organized and can generate valid images.
    
 -----
-# GAN for MNIST and CIFAR-10 dataset
+### GAN for MNIST and CIFAR-10 dataset
 
 ![Annotation 2024-09-10 141817](https://github.com/user-attachments/assets/1267069a-7934-47a7-9a7b-0f58a8816d25)
 
@@ -74,7 +74,7 @@ These two networks are trained simultaneously: the generator tries to fool the d
 
 Let's walk through how to implement a GAN for both the **MNIST** (handwritten digits) and **CIFAR-10** (natural images) datasets using TensorFlow/Keras.
 
-### Steps:
+#### Steps:
 1. **Load the Dataset**: For both MNIST and CIFAR-10.
 2. **Build the Generator**: A neural network that generates fake images from random noise.
 3. **Build the Discriminator**: A neural network that classifies images as real or fake.
@@ -83,16 +83,16 @@ Let's walk through how to implement a GAN for both the **MNIST** (handwritten di
    
 ------
 
-# Cancer Prediction using logistic regression
+## Cancer Prediction using logistic regression
 
 ![Annotation 2024-07-19 182442](https://github.com/user-attachments/assets/5993291c-c416-4225-bdae-e974f8357d35)
 
 
-## Overview
+### Overview
 
 This project implements a logistic regression model to predict cancer diagnoses based on patient data. The data is read from a CSV file and includes various patient attributes related to cancer.
 
-## Dataset
+### Dataset
 
 The dataset used for training and testing the model includes the following columns:
 
@@ -108,7 +108,7 @@ The dataset used for training and testing the model includes the following colum
 - **History**: Family history of cancer (1 for yes, 0 for no)
 - **Diagnosis Result**: Result of the diagnosis (Benign or Malignant)
 
-## Instructions
+### Instructions
 
 1. **Data Preparation**: Ensure that the dataset is in CSV format and properly formatted with the columns as described above.
 
