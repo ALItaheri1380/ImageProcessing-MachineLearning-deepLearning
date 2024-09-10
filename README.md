@@ -17,6 +17,7 @@ Table of Contents:
     * [Seam Carving for Content-Aware Image Resizing](#seam-carving-for-content-aware-image-resizing)
     * [Detecting Improper Sitting with Computer Vision](#detecting-improper-sitting-with-computer-vision)
     * [Body Posture Detection with OpenCV](#body-posture-detection-with-opencv)
+    * [Eye Tracking](#Eye-Tracking)
     * [Hand Gesture Recognition with OpenCV and CVZone](#hand-gesture-recognition-with-opencv-and-cvzone)
     * [Picture Colorization](#picture-colorization)
     * [Face Detection with OpenCV](#face-detection-with-opencv)
@@ -413,6 +414,38 @@ This project employs OpenCV to detect and analyze body posture in real-time. The
 3. **Usage**: Position yourself in front of the camera. The system will display real-time feedback on your posture and alert you if your posture deviates from the expected alignment.
 
 ----------
+### Eye Tracking
+
+This project demonstrates a simple eye tracking system using OpenCV and CVZone libraries. The system captures video from a webcam, detects faces and facial landmarks, and tracks the movement of the eyes to determine their gaze direction.
+
+#### Overview
+
+The script uses the CVZone library for face and face mesh detection and OpenCV for image processing and gaze tracking. The main goal is to determine whether the gaze is directed towards the right, left, or center of the screen based on the position of the iris within the eye region.
+
+#### Code Explanation
+
+1. **Imports and Setup**: The script imports necessary libraries and initializes the face and face mesh detectors.
+
+2. **Video Capture**: The script captures video from the webcam.
+
+3. **Face and Eye Detection**:
+   - **Face Detection**: Detects faces in the frame.
+   - **Face Mesh Detection**: Detects facial landmarks.
+   - **Eye Region Extraction**: Extracts the region of interest (ROI) around the right eye.
+
+4. **Gaze Tracking**:
+   - Converts the extracted eye ROI to grayscale and applies a binary threshold to detect the iris.
+   - Finds contours and determines the center of the largest contour (representing the iris).
+   - Calculates the gaze direction based on the position of the iris relative to the center of the eye.
+
+5. **Display and Interaction**:
+   - Draws a circle at the center of the iris and prints the gaze direction (Right, Left, Center).
+   - Shows the processed frame with eye tracking in a window.
+   - Exits the loop if the 'o' key is pressed.
+
+
+---------------------
+
 
 ### Hand Gesture Recognition with OpenCV and CVZone
 
