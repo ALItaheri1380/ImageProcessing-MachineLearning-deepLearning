@@ -256,6 +256,8 @@ This project uses PyTesseract, an OCR (Optical Character Recognition) tool, to e
 
 ![remove](https://user-images.githubusercontent.com/98982133/183724316-c727b5d3-91a4-44b2-b5b5-f48ef6e105ea.png)
 
+-------
+
 ### Text Classification for Hotel Comments (NLP)
 
 ![Annotation 2024-09-10 162829](https://github.com/user-attachments/assets/496bdb8e-9a8e-4fc6-9ac9-009b1034ffe0)
