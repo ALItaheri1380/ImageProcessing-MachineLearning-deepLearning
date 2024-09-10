@@ -211,11 +211,32 @@ The dataset contains features related to student performance and the target vari
 -------
 
 ## image classification
-We may want to recognize the nature of an animal or object, for example, to find out what kind of animal or object the photo we want is (dog or cat, etc.)
-
 
 ![photo1658265613](https://user-images.githubusercontent.com/98982133/179850660-1c54cdb5-15b8-414f-bcfe-b1f951fd5183.jpeg)
 
+## Overview
+
+This project focuses on image classification using TensorFlow. The goal is to recognize and classify different types of animals or objects from images. For example, the model can identify whether an image contains a dog, cat, or other specified categories.
+
+## Dataset
+
+The dataset consists of labeled images of various animals or objects(CIFAR-10). Each image is tagged with its corresponding class label, such as 'dog', 'cat', or other categories. Ensure that the dataset is well-organized and split into training and test sets.
+
+## Instructions
+
+1. **Data Preparation**: Organize and preprocess the dataset. This may involve resizing images, normalizing pixel values, and augmenting the data to improve model performance. Ensure that images are labeled correctly and stored in a structured format.
+
+2. **Loading the Data**: Use TensorFlow and `tf.data` API to load and preprocess the images. This involves creating a dataset pipeline that efficiently handles image loading, preprocessing, and batching.
+
+3. **Model Architecture**: Define the architecture of the convolutional neural network (CNN) using TensorFlow. Typical architectures include layers such as convolutional layers, pooling layers, and fully connected layers.
+
+4. **Training the Model**: Train the CNN model on the training dataset. Use techniques such as dropout and regularization to prevent overfitting. Monitor the model's performance on the validation set and adjust hyperparameters as necessary.
+
+5. **Evaluation**: Evaluate the model's accuracy and performance on the test set using metrics such as accuracy, precision, recall, and F1 score. Analyze the results to ensure the model meets the desired performance criteria.
+
+6. **Prediction**: Use the trained model to classify new images. Implement a function to preprocess the input image and obtain predictions from the model.
+
+----------------------
 
 ## Read text by pytesseract
 
