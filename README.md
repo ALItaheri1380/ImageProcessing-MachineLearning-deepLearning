@@ -239,8 +239,6 @@ The dataset consists of labeled images of various animals or objects(CIFAR-10). 
 ----------------------
 
 ## Read text by pytesseract
-
-
 ![photo1658265897](https://user-images.githubusercontent.com/98982133/179851338-dfd68156-6ddf-4d38-8355-9e426c3007c7.jpeg)
 ![photo1658265912](https://user-images.githubusercontent.com/98982133/179851400-2e015c88-2396-4a6e-9aba-29eb41a419b1.jpeg)
 
@@ -252,7 +250,6 @@ This project uses PyTesseract, an OCR (Optical Character Recognition) tool, to e
 
 --------------------------------------------------------------------------------------------------------------------
 # image processing
-
 ## Interesting processing on video and photos using Python
 
 ### Description
@@ -265,7 +262,6 @@ The subjects of these codes are:
 
 
 # Detecting Improper Sitting with Computer Vision
-
 
 ![photo_2023-08-16_02-03-44](https://github.com/ALItaheri1380/ImageProcessing-MachineLearning-deepLearning/assets/98982133/4b638adf-6110-49f6-a72c-c97e8010b1a3)
 
@@ -306,11 +302,38 @@ The code performs the following tasks:
 
 3. **Usage**: Adjust posture in front of the camera. The system will provide feedback on your sitting posture and sound an alert if necessary.
 
-## Body Posture Detection
+-------------------
 
+# Body Posture Detection with OpenCV
 
 ![BodyPostureDetection](https://user-images.githubusercontent.com/98982133/184558489-1dfe871c-be28-4161-88b2-132bdd0e5bcd.png)
 
+
+## Overview
+
+This project employs OpenCV to detect and analyze body posture in real-time. The system captures video input and evaluates body alignment to determine if the posture is correct or incorrect.
+
+## Key Features
+
+- **Real-Time Detection**: Analyzes video frames to assess body posture.
+- **Pose Estimation**: Uses OpenCV's capabilities to identify key body landmarks.
+- **Posture Feedback**: Provides visual feedback on posture alignment.
+
+## Instructions
+
+1. **Install Dependencies**:
+   ```bash
+   pip install opencv-python
+   ```
+
+2. **Run the Script**: Start the posture detection system by running the provided script.
+   ```bash
+   python posture_detection.py
+   ```
+
+3. **Usage**: Position yourself in front of the camera. The system will display real-time feedback on your posture and alert you if your posture deviates from the expected alignment.
+
+----------
 
 ## handgesture
 
