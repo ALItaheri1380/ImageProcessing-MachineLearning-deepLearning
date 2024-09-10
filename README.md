@@ -660,10 +660,31 @@ The code performs the following tasks:
 
 # Computer vision assignment 
 
-### HW1: Steganography
+## Steganography with MATLAB
 
 ![Annotation 2024-07-19 211409](https://github.com/user-attachments/assets/7c088d9b-c282-4646-84d8-b35883808186)
 
+### Overview
+
+This project demonstrates steganography techniques using MATLAB. The provided MATLAB code hides information within an image.
+
+### Code Overview
+
+- **Embed Information**: Hides a secret message or data within a cover image.
+- **Extract Information**: Retrieves the hidden message or data from the stego image.
+
+### Instructions
+
+1. **Prepare MATLAB**:
+   - Ensure you have MATLAB installed.
+
+2. **Run the Code**:
+   - Open the MATLAB script and execute it to hide and extract information from images.
+
+3. **Usage**:
+   - Follow the script instructions to provide the cover image and the message to hide.
+
+-----
 
 ### HW2: Image resizing
 
