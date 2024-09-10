@@ -258,6 +258,9 @@ This project uses PyTesseract, an OCR (Optical Character Recognition) tool, to e
 
 ### Text Classification for Hotel Comments (NLP)
 
+![Annotation 2024-09-10 162829](https://github.com/user-attachments/assets/496bdb8e-9a8e-4fc6-9ac9-009b1034ffe0)
+
+
 This project focuses on classifying hotel comments to determine their sentiment rating on a scale from 1 to 5. The goal is to develop a natural language processing (NLP) model that can accurately predict the rating based on the text of the comments.
 
 #### Overview
@@ -266,7 +269,7 @@ The dataset used for this project consists of 15,000 hotel comments, which are s
 
 #### Data
 
-- **File**: `hotel_comments.csv`
+- **File**: `word.csv`
 - **Columns**: 
   - `comment` - The text of the hotel review.
   - `rating` - The rating assigned to the review (1 to 5).
