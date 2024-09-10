@@ -384,10 +384,39 @@ The code performs the following tasks:
 ------------------
 
 
-## colorize picture
-
+# Picture Colorization
 
 ![colorizepicture](https://user-images.githubusercontent.com/98982133/185639463-7ad5d466-05e0-459c-bc52-0d29e20cdcb2.png)
+
+
+## Overview
+
+This project demonstrates how to colorize black-and-white images using advanced image processing techniques. The provided Jupyter Notebook guides you through the process of applying color to grayscale images.
+
+## Code Overview
+
+The code in the Jupyter Notebook performs the following tasks:
+
+1. **Load and Preprocess Images**: Reads grayscale images and prepares them for colorization.
+2. **Colorization Model**: Applies a pre-trained model or colorization algorithm to add color to the grayscale images.
+3. **Display Results**: Shows the colorized images alongside the original grayscale images for comparison.
+
+## Instructions
+
+1. **Install Dependencies**:
+   ```bash
+   pip install numpy matplotlib opencv-python
+   ```
+
+2. **Download the Notebook**: Access the Jupyter Notebook from [ColorizePicture.ipynb](https://github.com/ALItaheri1380/ImageProcessing-MachineLearning-deepLearning/blob/main/ImageProcessing/ColorizePicture.ipynb).
+
+3. **Run the Notebook**:
+   - Open the notebook in Jupyter Lab or Jupyter Notebook.
+   - Follow the instructions within the notebook to colorize your images.
+
+4. **Usage**: Load your grayscale images into the notebook and execute the colorization code to transform them into color images.
+
+----
 
 
 ## faceDetector
