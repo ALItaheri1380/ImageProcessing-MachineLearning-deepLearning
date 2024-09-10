@@ -8,6 +8,7 @@ Table of Contents:
     * [Cancer Prediction using Logistic Regression](#cancer-prediction-using-logistic-regression)
     * [Read Number from Image by CNN](#read-number-from-image-by-cnn)
     * [Nationality Prediction from Names Using RNN](#nationality-Prediction-from-Names-Using-RNN)
+    * [Student Grade Prediction Using Multi-Layer Perceptron](#Student-Grade-Prediction-Using-Multi-Layer-Perceptron)
     * [Extract Text from Image](#extract-text-from-image)
     * [Student Grade Prediction by MLP](#student-grade-prediction-by-mlp)
     * [Image Classification](#image-classification)
@@ -186,21 +187,21 @@ The dataset consists of names labeled with their corresponding nationalities. Ea
 
 ----------
 
-# Student Grade Prediction Using Multi-Layer Perceptron (MLP)
+### Student Grade Prediction Using Multi-Layer Perceptron
 
 ![feduc-08-1106679-g005](https://github.com/user-attachments/assets/2ce3c80d-97fe-4d0b-ab7a-7328e1a496fc)
 
 
-## Overview
+#### Overview
 
 This project uses a Multi-Layer Perceptron (MLP) to predict student grades based on various input features. The MLP model is trained to make predictions on student performance by learning from historical data.
 
-## Dataset
+#### Dataset
 
 The dataset contains features related to student performance and the target variable is the student's grade. Each record includes input features such as study hours, sleep hours
 , and other relevant attributes.
 
-## Instructions
+#### Instructions
 
 1. **Data Preparation**: Ensure that the dataset is organized with relevant features and the target variable (grades). The dataset should be in a format compatible with the provided code, typically CSV or similar.
 
