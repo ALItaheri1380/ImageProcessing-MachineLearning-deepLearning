@@ -246,7 +246,7 @@ The dataset consists of labeled images of various animals or objects(CIFAR-10). 
 
 This project uses PyTesseract, an OCR (Optical Character Recognition) tool, to extract text from images. PyTesseract is a Python wrapper for Google's Tesseract-OCR Engine.
 
-## Remove objects from photos or videos or webcam
+### Remove objects from photos or videos or webcam
 
 ![remove](https://user-images.githubusercontent.com/98982133/183724316-c727b5d3-91a4-44b2-b5b5-f48ef6e105ea.png)
 
@@ -263,7 +263,7 @@ The subjects of these codes are:
 3. identify hands and fingers and calculate the distance between two areas of the hand
 4. identify a moving object
 
-*Note that for some codes, you have to give them the desired link yourself
+**Note that for some codes, you have to give them the desired link yourself**
 
 ### All these pine examples are screenshots taken from a webcam and a webcam is needed to run each of the codes
 
