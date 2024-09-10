@@ -1,4 +1,4 @@
-## Computer Vision and Deep Learning Projects
+# Computer Vision and Deep Learning Projects
 
 Table of Contents:
 
@@ -14,8 +14,9 @@ Table of Contents:
     * [Text Classification for Hotel Comments (NLP)](#text-classification-for-hotel-comments-nlp)
 
 
+# Deep Learning
 
-# VAE for mnist dataset
+## VAE for mnist dataset
 
 ![Annotation 2024-09-10 140639](https://github.com/user-attachments/assets/f1e9b659-b5e0-476c-810a-50431ebdaf43)
 
