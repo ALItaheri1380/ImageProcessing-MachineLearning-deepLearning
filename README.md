@@ -9,9 +9,8 @@ Table of Contents:
     * [Read Number from Image by CNN](#read-number-from-image-by-cnn)
     * [Nationality Prediction from Names Using RNN](#nationality-Prediction-from-Names-Using-RNN)
     * [Student Grade Prediction Using Multi-Layer Perceptron](#Student-Grade-Prediction-Using-Multi-Layer-Perceptron)
-    * [Extract Text from Image](#extract-text-from-image)
-    * [Student Grade Prediction by MLP](#student-grade-prediction-by-mlp)
     * [Image Classification](#image-classification)
+    * [Extract Text from Image](#extract-text-from-image)
     * [A Simple Method to Remove Objects from Photos](#a-simple-method-to-remove-objects-from-photos)
     * [Text Classification for Hotel Comments (NLP)](#text-classification-for-hotel-comments-nlp)
 
