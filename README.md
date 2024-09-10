@@ -152,10 +152,31 @@ Each image in the dataset is labeled according to one of these classes.
 
 ----------------
 
-## Nationality prediction from a name by Rnn
+# Nationality Prediction from Names Using Recurrent Neural Networks (RNN)
 
 ![photo_2024-07-19_18-28-18](https://github.com/user-attachments/assets/48a2fd97-1c0a-40ad-8ed7-ba9dc225c6bd)
 
+## Overview
+
+This project uses a Recurrent Neural Network (RNN) to predict the nationality of a person based on their name. The RNN model is trained to classify names into different nationalities by learning patterns in character sequences.
+
+## Dataset
+
+The dataset consists of names labeled with their corresponding nationalities. Each name is used to train the RNN to recognize patterns that are indicative of different nationalities.
+
+## Instructions
+
+1. **Data Preparation**: Ensure the dataset is structured with names and their associated nationalities. The dataset should be in a format compatible with the provided code, typically CSV or similar.
+
+2. **Loading the Data**: Use the provided Jupyter Notebook to load and preprocess the dataset. This involves encoding names and nationalities into formats suitable for the RNN model.
+
+3. **Model Architecture**: The notebook defines an RNN model that includes layers such as embedding, LSTM/GRU, and dense layers. Review and adjust the architecture as needed for your dataset.
+
+4. **Training the Model**: Split the data into training and validation sets. Train the RNN model using the training set, monitoring its performance on the validation set.
+
+5. **Evaluation**: Evaluate the model's performance using accuracy and other relevant metrics. Adjust model parameters and hyperparameters to improve performance.
+
+6. **Prediction**: Use the trained RNN model to predict the nationality of new names.
 
 ## Student Grade Prediction by mlp
 
