@@ -253,7 +253,7 @@ This project uses PyTesseract, an OCR (Optical Character Recognition) tool, to e
 --------------------------------------------------------------------------------------------------------------------
 # image processing
 
-##Interesting processing on video and photos using Python
+## Interesting processing on video and photos using Python
 
 ### Description
 The subjects of these codes are:
