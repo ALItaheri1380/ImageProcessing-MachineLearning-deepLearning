@@ -426,6 +426,41 @@ The code in the Jupyter Notebook performs the following tasks:
 
 ## Overview
 
+This project demonstrates face detection using OpenCV. The provided Python script utilizes pre-trained Haar Cascade Classifiers to detect faces in images.
+
+## Code Overview
+
+The code performs the following tasks:
+
+1. **Setup**: Initializes the Haar Cascade Classifier for face detection.
+2. **Load Image**: Reads an image from a specified file.
+3. **Face Detection**:
+   - Processes the image to detect faces using the Haar Cascade Classifier.
+   - Draws rectangles around detected faces.
+4. **Display Results**: Shows the processed image with detected faces highlighted.
+
+## Instructions
+
+1. **Install Dependencies**:
+   ```bash
+   pip install opencv-python
+   ```
+
+2. **Download the Script**: Access the Python script from [face_encoding.py](https://github.com/ALItaheri1380/ImageProcessing-MachineLearning-deepLearning/blob/main/ImageProcessing/face_encoding.py).
+
+3. **Run the Script**:
+   - Modify the script to specify the path to your image file.
+   - Execute the script to detect faces in the image.
+   ```bash
+   python face_encoding.py
+   ```
+
+4. **Usage**: The script will display the image with detected faces highlighted. Ensure that the image path is correctly set in the script.
+
+----------
+
+## Overview
+
 This project demonstrates face detection using OpenCV. The provided Python script utilizes OpenCV's pre-trained Haar Cascade Classifier to detect faces in images or video streams.
 
 ## Code Overview
