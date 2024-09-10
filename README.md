@@ -6,7 +6,7 @@ Table of Contents:
     * [VAE for mnist dataset](#vae-for-mnist-dataset)
     * [GAN for MNIST and CIFAR-10 dataset](#GAN-for-MNIST-and-CIFAR-10-dataset)
     * [Cancer Prediction using Logistic Regression](#cancer-prediction-using-logistic-regression)
-    * [Read Number from Image by CNN](#read-number-from-image-by-cnn)
+    * [Number Reading from Images Using Convolutional Neural Networks (CNN)](#Number-Reading-from-Images-Using-Convolutional-Neural-Networks-(CNN))
     * [Nationality Prediction from a Name by RNN](#nationality-prediction-from-a-name-by-rnn)
     * [Extract Text from Image](#extract-text-from-image)
     * [Student Grade Prediction by MLP](#student-grade-prediction-by-mlp)
@@ -84,16 +84,16 @@ Let's walk through how to implement a GAN for both the **MNIST** (handwritten di
    
 ------
 
-## Cancer Prediction using logistic regression
+### Cancer Prediction using logistic regression
 
 ![Annotation 2024-07-19 182442](https://github.com/user-attachments/assets/5993291c-c416-4225-bdae-e974f8357d35)
 
 
-### Overview
+#### Overview
 
 This project implements a logistic regression model to predict cancer diagnoses based on patient data. The data is read from a CSV file and includes various patient attributes related to cancer.
 
-### Dataset
+#### Dataset
 
 The dataset used for training and testing the model includes the following columns:
 
@@ -109,7 +109,7 @@ The dataset used for training and testing the model includes the following colum
 - **History**: Family history of cancer (1 for yes, 0 for no)
 - **Diagnosis Result**: Result of the diagnosis (Benign or Malignant)
 
-### Instructions
+#### Instructions
 
 1. **Data Preparation**: Ensure that the dataset is in CSV format and properly formatted with the columns as described above.
 
@@ -125,7 +125,7 @@ The dataset used for training and testing the model includes the following colum
 
 -------
 
-# Number Reading from Images Using Convolutional Neural Networks (CNN)
+### Number Reading from Images Using Convolutional Neural Networks (CNN)
 
 ![Annotation 2024-07-19 182319](https://github.com/user-attachments/assets/9a5e8e86-1e40-49b4-b574-f910d4dcc2ae)
 
