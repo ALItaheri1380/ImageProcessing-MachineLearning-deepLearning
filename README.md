@@ -461,12 +461,46 @@ The code performs the following tasks:
 -------
 
 
-## EyeAndSmile
+# Eye and Smile Detection with OpenCV
 
 
 ![EyeAndSmile](https://user-images.githubusercontent.com/98982133/183731323-a51bf7dc-9472-4e03-a66d-575ce6b98d1d.png)
 
 
+## Overview
+
+This project demonstrates eye and smile detection using OpenCV. The provided Python script utilizes pre-trained Haar Cascade Classifiers to detect eyes and smiles in images or video streams.
+
+## Code Overview
+
+The code performs the following tasks:
+
+1. **Setup**: Initializes Haar Cascade Classifiers for detecting eyes and smiles.
+2. **Load Image or Video**: Captures images or video frames from the specified source.
+3. **Detection**:
+   - Detects eyes and smiles within each frame using the Haar Cascade Classifiers.
+   - Draws rectangles around detected eyes and smiles.
+4. **Display Results**: Shows the processed image or video feed with detected eyes and smiles highlighted.
+
+## Instructions
+
+1. **Install Dependencies**:
+   ```bash
+   pip install opencv-python
+   ```
+
+2. **Download the Script**: Access the Python script from [EyeAndSmile.py](https://github.com/ALItaheri1380/ImageProcessing-MachineLearning-deepLearning/blob/main/ImageProcessing/EyeAndSmile.py).
+
+3. **Run the Script**:
+   - To detect eyes and smiles in an image, modify the script to read from an image file.
+   - To detect eyes and smiles in a video stream, run the script to capture video from a camera or video file.
+   ```bash
+   python EyeAndSmile.py
+   ```
+
+4. **Usage**: The script will display the image or video feed with detected eyes and smiles highlighted. Press 'q' to exit the video feed.
+
+---------------
 
 ## face_encoding
 
