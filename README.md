@@ -125,15 +125,15 @@ The dataset used for training and testing the model includes the following colum
 
 -------
 
-### Number Reading from Images Using Convolutional Neural Networks (CNN)
+### Read Number from Image by CNN
 
 ![Annotation 2024-07-19 182319](https://github.com/user-attachments/assets/9a5e8e86-1e40-49b4-b574-f910d4dcc2ae)
 
-## Overview
+### Overview
 
 This project utilizes a Convolutional Neural Network (CNN) to read and classify numbers and symbols from images. The dataset contains images labeled with various classes, including digits and special characters.
 
-## Dataset
+### Dataset
 
 The dataset consists of 60,000 images with the following classes:
 
@@ -142,7 +142,7 @@ The dataset consists of 60,000 images with the following classes:
 
 Each image in the dataset is labeled according to one of these classes.
 
-## Instructions
+#### Instructions
 
 1. **Data Preparation**: Ensure the dataset of 60,000 images is organized and labeled correctly. The images should be accessible in a format suitable for loading into the CNN model.
 
