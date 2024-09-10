@@ -80,12 +80,6 @@ Let's walk through how to implement a GAN for both the **MNIST** (handwritten di
 
 ## Cancer Prediction using logistic regression
 
-Here's a short README for your cancer prediction project using logistic regression:
-
----
-
-# Cancer Prediction using Logistic Regression
-
 ![Annotation 2024-07-19 182442](https://github.com/user-attachments/assets/5993291c-c416-4225-bdae-e974f8357d35)
 
 
