@@ -263,17 +263,48 @@ The subjects of these codes are:
 3. identify hands and fingers and calculate the distance between two areas of the hand
 4. identify a moving object
 
-**Note that for some codes, you have to give them the desired link yourself**
 
-### All these pine examples are screenshots taken from a webcam and a webcam is needed to run each of the codes
+# Detecting Improper Sitting with Computer Vision
 
-
-
-
-
-## Detecting_Improper_Sitting
 
 ![photo_2023-08-16_02-03-44](https://github.com/ALItaheri1380/ImageProcessing-MachineLearning-deepLearning/assets/98982133/4b638adf-6110-49f6-a72c-c97e8010b1a3)
+
+
+## Overview
+
+This project uses computer vision techniques to detect improper sitting posture in real-time. By analyzing video input, the system assesses body alignment and posture, providing feedback on whether the sitting posture is correct or incorrect.
+
+## Code Overview
+
+The code performs the following tasks:
+
+1. **Setup**: Utilizes OpenCV for video capture, Mediapipe for pose estimation, and Win32 API for sound alerts.
+
+2. **Posture Detection**:
+   - **Find Distance**: Calculates the distance between shoulder points to determine alignment.
+   - **Find Angle**: Measures neck and torso inclinations to evaluate posture.
+
+3. **Real-Time Analysis**:
+   - Captures video frames and processes them to extract key points for posture assessment.
+   - Determines if the posture is correct based on predefined angle thresholds.
+   - Displays real-time feedback on the screen, including posture metrics and alerts.
+
+4. **Alerts**:
+   - Sounds an alert if bad posture is detected for more than 5 seconds.
+
+## Instructions
+
+1. **Install Dependencies**:
+   ```bash
+   pip install opencv-python mediapipe pywin32
+   ```
+
+2. **Run the Script**: Execute the script to start video capture and posture analysis.
+   ```bash
+   python detect_improper_sitting.py
+   ```
+
+3. **Usage**: Adjust posture in front of the camera. The system will provide feedback on your sitting posture and sound an alert if necessary.
 
 ## Body Posture Detection
 
