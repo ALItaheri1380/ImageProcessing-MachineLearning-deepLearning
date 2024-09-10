@@ -14,7 +14,7 @@ Table of Contents:
     * [Text Classification for Hotel Comments (NLP)](#text-classification-for-hotel-comments-nlp)
 
 
-# Deep Learning
+*# Deep Learning*
 
 ## VAE for mnist dataset
 
