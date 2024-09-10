@@ -27,7 +27,6 @@ Table of Contents:
     * [Steganography with MATLAB](#steganography-with-matlab)
     * [Image Resizing with MATLAB](#image-resizing-with-matlab)
     * [Image Denoising and Persian Number Recognition with MATLAB](#image-denoising-and-persian-number-recognition-with-matlab)
-    * [Noise Removal and Persian Number Recognition](#noise-removal-and-persian-number-recognition)
     * [Jigsaw Puzzle Solver with MATLAB](#jigsaw-puzzle-solver-with-matlab)
 
 
