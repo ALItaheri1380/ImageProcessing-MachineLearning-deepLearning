@@ -142,8 +142,34 @@ Reading a text (in different languages) for example a car license plate
 
 ![h](https://user-images.githubusercontent.com/98982133/179608242-4b87dbfa-68f8-472e-95a1-2ef868f9159f.png)
 
+# seam carving for content-aware image resizing
 
-## Computer vision assignment 
+**Seam carving** is a technique used for content-aware image resizing. Instead of uniformly shrinking or expanding an image, seam carving intelligently removes or adds pixels along paths of least importance, allowing important features (like people or objects) to remain undistorted.
+
+### Key Concepts:
+
+1. **Seams**: A seam is a connected path of pixels that extends from one side of the image to the opposite side (top to bottom or left to right). The seam is chosen to have the least significance (based on some energy function).
+   
+2. **Energy Function**: This function calculates the "importance" of a pixel. Common choices include the gradient magnitude of the image (e.g., using Sobel filters) to find areas of high contrast or edge information, which are considered more important.
+
+3. **Seam Removal**: The process involves finding the seam with the lowest energy and removing it, reducing the image size without distorting important content.
+
+4. **Seam Insertion**: To enlarge an image, seams with the lowest energy can be duplicated, which adds pixels to the image without distorting key features.
+
+### Steps of Seam Carving:
+1. **Compute Energy Map**: 
+   - An energy map is created by calculating the gradient magnitude of the image. This highlights areas of high importance (like edges).
+   
+2. **Find Optimal Seam**: 
+   - Using dynamic programming, the seam with the lowest cumulative energy is found. This seam is a continuous path of connected pixels that spans the image.
+
+3. **Remove or Insert Seam**: 
+   - For reducing size, remove the seam. For enlarging, duplicate the seam.
+
+![castle1-1](https://github.com/user-attachments/assets/171458be-2c41-4211-8552-7f5f763b7cb9)
+
+
+# Computer vision assignment 
 
 ### HW1: Steganography
 
