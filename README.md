@@ -23,7 +23,7 @@ Table of Contents:
     * [Eye and Smile Detection with OpenCV](#eye-and-smile-detection-with-opencv)
     * [Moving Object Detection with OpenCV](#moving-object-detection-with-opencv)
     * [Template Matching with OpenCV](#template-matching-with-opencv)
-    * [Computer Vision Assignment](#computer-vision-assignment)
+3. [Computer Vision Assignment](#computer-vision-assignment)
     * [Steganography with MATLAB](#steganography-with-matlab)
     * [Image Resizing with MATLAB](#image-resizing-with-matlab)
     * [Image Denoising and Persian Number Recognition with MATLAB](#image-denoising-and-persian-number-recognition-with-matlab)
