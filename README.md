@@ -686,11 +686,43 @@ This project demonstrates steganography techniques using MATLAB. The provided MA
 
 -----
 
-### HW2: Image resizing
+## Image Resizing with MATLAB
 
-Methods used: 1. Bilinear, 2. Chessboard_Distance, 3. CityBlock_Distance, 4. Euclidean_Distance, 5. Neighbor, 6. My method(As can be seen in the report file, a significant increase in accuracy is observed)
 
 ![Annotation 2024-07-19 211611](https://github.com/user-attachments/assets/08348de4-aeb0-4131-a1ab-cca46bb816d3)
+
+
+### Overview
+
+This project demonstrates various image resizing techniques using MATLAB. The provided MATLAB code implements and compares multiple resizing methods, including custom approaches.
+
+### Methods Used
+
+1. **Bilinear**: Interpolation method that considers the closest four pixels to determine the new pixel value.
+2. **Chessboard Distance**: Resizing using a chessboard distance metric.
+3. **CityBlock Distance**: Resizing based on the Manhattan distance between pixels.
+4. **Euclidean Distance**: Resizing based on the Euclidean distance between pixels.
+5. **Neighbor**: Nearest-neighbor interpolation method.
+6. **Custom Method**: A novel resizing technique with improved accuracy as noted in the report.
+
+### Code Overview
+
+- **Image Resizing**: Implements and applies the aforementioned resizing methods.
+- **Comparison**: Compares the performance and accuracy of each resizing technique.
+
+### Instructions
+
+1. **Prepare MATLAB**:
+   - Ensure you have MATLAB installed.
+
+2. **Run the Code**:
+   - Open the MATLAB script and execute it to apply different resizing methods on images.
+
+3. **Usage**:
+   - Follow the script instructions to provide the input images and view results for each resizing method.
+
+------------
+
 
 ### HW3: part one: Image denoising(salt and pepper), part two: Removing noise from the photo and adding Persian numbers and displaying the result
 > part one:
