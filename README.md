@@ -13,6 +13,22 @@ Table of Contents:
     * [Read Text by Pytesseract](#read-text-by-pytesseract)
     * [A Simple Method to Remove Objects from Photos](#a-simple-method-to-remove-objects-from-photos)
     * [Text Classification for Hotel Comments (NLP)](#text-classification-for-hotel-comments-nlp)
+2. [Computer Vision](#Computer-Vision)
+    * [Seam Carving for Content-Aware Image Resizing](#seam-carving-for-content-aware-image-resizing)
+    * [Detecting Improper Sitting with Computer Vision](#detecting-improper-sitting-with-computer-vision)
+    * [Body Posture Detection with OpenCV](#body-posture-detection-with-opencv)
+    * [Hand Gesture Recognition with OpenCV and CVZone](#hand-gesture-recognition-with-opencv-and-cvzone)
+    * [Picture Colorization](#picture-colorization)
+    * [Face Detection with OpenCV](#face-detection-with-opencv)
+    * [Eye and Smile Detection with OpenCV](#eye-and-smile-detection-with-opencv)
+    * [Moving Object Detection with OpenCV](#moving-object-detection-with-opencv)
+    * [Template Matching with OpenCV](#template-matching-with-opencv)
+    * [Computer Vision Assignment](#computer-vision-assignment)
+    * [Steganography with MATLAB](#steganography-with-matlab)
+    * [Image Resizing with MATLAB](#image-resizing-with-matlab)
+    * [Image Denoising and Persian Number Recognition with MATLAB](#image-denoising-and-persian-number-recognition-with-matlab)
+    * [Noise Removal and Persian Number Recognition](#noise-removal-and-persian-number-recognition)
+    * [Jigsaw Puzzle Solver with MATLAB](#jigsaw-puzzle-solver-with-matlab)
 
 
 ## **Deep Learning**
@@ -288,28 +304,20 @@ The dataset used for this project consists of 15,000 hotel comments, which are s
 6. **Prediction**: Use the trained model to predict ratings for new comments.
 7. 
 --------------------------------------------------------------------------------------------------------------------
-# image processing
-## Interesting processing on video and photos using Python
-
-### Description
-The subjects of these codes are:
-
-1. to identify a person's face
-2. recognize a person's face and their eyes and lips and the center of the face
-3. identify hands and fingers and calculate the distance between two areas of the hand
-4. identify a moving object
 
 
-# Detecting Improper Sitting with Computer Vision
+## Computer Viosion
+
+### Detecting Improper Sitting with Computer Vision
 
 ![photo_2023-08-16_02-03-44](https://github.com/ALItaheri1380/ImageProcessing-MachineLearning-deepLearning/assets/98982133/4b638adf-6110-49f6-a72c-c97e8010b1a3)
 
 
-## Overview
+#### Overview
 
 This project uses computer vision techniques to detect improper sitting posture in real-time. By analyzing video input, the system assesses body alignment and posture, providing feedback on whether the sitting posture is correct or incorrect.
 
-## Code Overview
+#### Code Overview
 
 The code performs the following tasks:
 
@@ -327,7 +335,7 @@ The code performs the following tasks:
 4. **Alerts**:
    - Sounds an alert if bad posture is detected for more than 5 seconds.
 
-## Instructions
+#### Instructions
 
 1. **Install Dependencies**:
    ```bash
