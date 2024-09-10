@@ -309,8 +309,37 @@ The dataset used for this project consists of 15,000 hotel comments, which are s
 
 ## **Computer Vision**
 
+# seam carving for content-aware image resizing
 
 
+![Annotation 2024-09-10 152601](https://github.com/user-attachments/assets/cb6169fd-97ad-4ebf-b6f8-127c8ae3f55d)
+
+
+**Seam carving** is a technique used for content-aware image resizing. Instead of uniformly shrinking or expanding an image, seam carving intelligently removes or adds pixels along paths of least importance, allowing important features (like people or objects) to remain undistorted.
+
+### Key Concepts:
+
+1. **Seams**: A seam is a connected path of pixels that extends from one side of the image to the opposite side (top to bottom or left to right). The seam is chosen to have the least significance (based on some energy function).
+   
+2. **Energy Function**: This function calculates the "importance" of a pixel. Common choices include the gradient magnitude of the image (e.g., using Sobel filters) to find areas of high contrast or edge information, which are considered more important.
+
+3. **Seam Removal**: The process involves finding the seam with the lowest energy and removing it, reducing the image size without distorting important content.
+
+4. **Seam Insertion**: To enlarge an image, seams with the lowest energy can be duplicated, which adds pixels to the image without distorting key features.
+
+### Steps of Seam Carving:
+1. **Compute Energy Map**: 
+   - An energy map is created by calculating the gradient magnitude of the image. This highlights areas of high importance (like edges).
+   
+2. **Find Optimal Seam**: 
+   - Using dynamic programming, the seam with the lowest cumulative energy is found. This seam is a continuous path of connected pixels that spans the image.
+
+3. **Remove or Insert Seam**: 
+   - For reducing size, remove the seam. For enlarging, duplicate the seam.
+
+![castle1-1](https://github.com/user-attachments/assets/171458be-2c41-4211-8552-7f5f763b7cb9)
+
+-----------
 
 ### Detecting Improper Sitting with Computer Vision
 
@@ -675,37 +704,6 @@ The code performs the following tasks:
 4. **Usage**: The script will display the main image with rectangles drawn around the detected areas where the template matches. Press any key to close the displayed image window.
 
 ------- 
-
-# seam carving for content-aware image resizing
-
-
-![Annotation 2024-09-10 152601](https://github.com/user-attachments/assets/cb6169fd-97ad-4ebf-b6f8-127c8ae3f55d)
-
-
-**Seam carving** is a technique used for content-aware image resizing. Instead of uniformly shrinking or expanding an image, seam carving intelligently removes or adds pixels along paths of least importance, allowing important features (like people or objects) to remain undistorted.
-
-### Key Concepts:
-
-1. **Seams**: A seam is a connected path of pixels that extends from one side of the image to the opposite side (top to bottom or left to right). The seam is chosen to have the least significance (based on some energy function).
-   
-2. **Energy Function**: This function calculates the "importance" of a pixel. Common choices include the gradient magnitude of the image (e.g., using Sobel filters) to find areas of high contrast or edge information, which are considered more important.
-
-3. **Seam Removal**: The process involves finding the seam with the lowest energy and removing it, reducing the image size without distorting important content.
-
-4. **Seam Insertion**: To enlarge an image, seams with the lowest energy can be duplicated, which adds pixels to the image without distorting key features.
-
-### Steps of Seam Carving:
-1. **Compute Energy Map**: 
-   - An energy map is created by calculating the gradient magnitude of the image. This highlights areas of high importance (like edges).
-   
-2. **Find Optimal Seam**: 
-   - Using dynamic programming, the seam with the lowest cumulative energy is found. This seam is a continuous path of connected pixels that spans the image.
-
-3. **Remove or Insert Seam**: 
-   - For reducing size, remove the seam. For enlarging, duplicate the seam.
-
-![castle1-1](https://github.com/user-attachments/assets/171458be-2c41-4211-8552-7f5f763b7cb9)
-
 
 # Computer vision assignment 
 
