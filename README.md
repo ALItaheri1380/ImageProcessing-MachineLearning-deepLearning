@@ -18,8 +18,7 @@ The subjects of these codes are:
 
 ## VAE for mnist dataset
 
-
-![Annotation 2024-09-10 140120](https://github.com/user-attachments/assets/5167aa65-175f-46f6-813d-0c4f9412d11b)
+![Annotation 2024-09-10 140639](https://github.com/user-attachments/assets/f1e9b659-b5e0-476c-810a-50431ebdaf43)
 
 
 A **Variational Autoencoder (VAE)** is a type of generative model that can learn to encode data (like images) into a compressed latent space and then decode it back to reconstruct the original input. VAEs are particularly useful for generating new data samples similar to the input data. Let's discuss the concept and how a VAE can be applied to the MNIST dataset.
