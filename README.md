@@ -2,16 +2,16 @@
 
 Table of Contents:
 
-1. Deep Learning
-    * VAE for MNIST Dataset
-    * Cancer Prediction using Logistic Regression
-    * Read Number from Image by CNN
-    * Nationality Prediction from a Name by RNN
-    * Extract Text from Image
-    * Student Grade Prediction by MLP
-    * Image Classification
-    * A Simple Method to Remove Objects from Photos
-    * Text Classification for Hotel Comments (NLP)
+1. [Deep Learning](#deep-learning)
+    * [VAE for mnist dataset](#vae-for-mnist-dataset)
+    * [Cancer Prediction using Logistic Regression](#cancer-prediction-using-logistic-regression)
+    * [Read Number from Image by CNN](#read-number-from-image-by-cnn)
+    * [Nationality Prediction from a Name by RNN](#nationality-prediction-from-a-name-by-rnn)
+    * [Extract Text from Image](#extract-text-from-image)
+    * [Student Grade Prediction by MLP](#student-grade-prediction-by-mlp)
+    * [Image Classification](#image-classification)
+    * [A Simple Method to Remove Objects from Photos](#a-simple-method-to-remove-objects-from-photos)
+    * [Text Classification for Hotel Comments (NLP)](#text-classification-for-hotel-comments-nlp)
 
 
 
