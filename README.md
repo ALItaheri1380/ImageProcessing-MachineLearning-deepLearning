@@ -7,7 +7,7 @@ Table of Contents:
     * [GAN for MNIST and CIFAR-10 dataset](#GAN-for-MNIST-and-CIFAR-10-dataset)
     * [Cancer Prediction using Logistic Regression](#cancer-prediction-using-logistic-regression)
     * [Read Number from Image by CNN](#read-number-from-image-by-cnn)
-    * [Nationality Prediction from a Name by RNN](#nationality-prediction-from-a-name-by-rnn)
+    * [Nationality Prediction from Names Using RNN](#nationality-Prediction-from-Names-Using-RNN)
     * [Extract Text from Image](#extract-text-from-image)
     * [Student Grade Prediction by MLP](#student-grade-prediction-by-mlp)
     * [Image Classification](#image-classification)
@@ -129,11 +129,11 @@ The dataset used for training and testing the model includes the following colum
 
 ![Annotation 2024-07-19 182319](https://github.com/user-attachments/assets/9a5e8e86-1e40-49b4-b574-f910d4dcc2ae)
 
-### Overview
+#### Overview
 
 This project utilizes a Convolutional Neural Network (CNN) to read and classify numbers and symbols from images. The dataset contains images labeled with various classes, including digits and special characters.
 
-### Dataset
+#### Dataset
 
 The dataset consists of 60,000 images with the following classes:
 
@@ -158,19 +158,19 @@ Each image in the dataset is labeled according to one of these classes.
 
 ----------------
 
-# Nationality Prediction from Names Using Recurrent Neural Networks (RNN)
+### Nationality Prediction from Names Using RNN
 
 ![photo_2024-07-19_18-28-18](https://github.com/user-attachments/assets/48a2fd97-1c0a-40ad-8ed7-ba9dc225c6bd)
 
-## Overview
+#### Overview
 
 This project uses a Recurrent Neural Network (RNN) to predict the nationality of a person based on their name. The RNN model is trained to classify names into different nationalities by learning patterns in character sequences.
 
-## Dataset
+#### Dataset
 
 The dataset consists of names labeled with their corresponding nationalities. Each name is used to train the RNN to recognize patterns that are indicative of different nationalities.
 
-## Instructions
+#### Instructions
 
 1. **Data Preparation**: Ensure the dataset is structured with names and their associated nationalities. The dataset should be in a format compatible with the provided code, typically CSV or similar.
 
