@@ -56,6 +56,10 @@ A **Variational Autoencoder (VAE)** is a type of generative model that can learn
    
 -----
 # GAN for MNIST and CIFAR-10 dataset
+
+![Annotation 2024-09-10 141817](https://github.com/user-attachments/assets/1267069a-7934-47a7-9a7b-0f58a8816d25)
+
+
 A **Generative Adversarial Network (GAN)** is a type of neural network architecture used to generate new data points from an existing dataset. GANs consist of two components:
 
 1. **Generator**: Generates fake samples from random noise.
