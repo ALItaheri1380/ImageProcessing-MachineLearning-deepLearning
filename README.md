@@ -4,6 +4,7 @@ Table of Contents:
 
 1. [Deep Learning](#deep-learning)
     * [VAE for mnist dataset](#vae-for-mnist-dataset)
+    * [GAN for MNIST and CIFAR-10 dataset](#GAN-for-MNIST-and-CIFAR-10-dataset)
     * [Cancer Prediction using Logistic Regression](#cancer-prediction-using-logistic-regression)
     * [Read Number from Image by CNN](#read-number-from-image-by-cnn)
     * [Nationality Prediction from a Name by RNN](#nationality-prediction-from-a-name-by-rnn)
