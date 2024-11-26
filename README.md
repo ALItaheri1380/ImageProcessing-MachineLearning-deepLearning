@@ -228,7 +228,7 @@ This project explores the differences between supervised and unsupervised learni
 ![photo_2024-11-26_21-32-32](https://github.com/user-attachments/assets/c7fe629f-c1ad-4eeb-a52a-69ed12563e22)
 
 
-The AdvancedClassifier class is designed for binary classification using PyTorch. It employs a neural network architecture that includes:
+The AdvancedClassifier class is designed for binary classification using PyTorch. It employs a neural network architecture.
 
 #### Datasets
 
