@@ -8,6 +8,7 @@ Table of Contents:
     * [Cancer Prediction using Logistic Regression](#cancer-prediction-using-logistic-regression)
     * [Read Number from Image by CNN](#read-number-from-image-by-cnn)
     * [Nationality Prediction from Names Using RNN](#nationality-Prediction-from-Names-Using-RNN)
+    * [Supervised vs. Unsupervised Learning on the MNIST and USA_Housing Dataset](#Supervised-vs.-Unsupervised-Learning-on-the-MNIST-and-USA_Housing-Dataset)
     * [Student Grade Prediction Using Multi-Layer Perceptron](#Student-Grade-Prediction-Using-Multi-Layer-Perceptron)
     * [Image Classification](#image-classification)
     * [Read Text by Pytesseract](#read-text-by-pytesseract)
@@ -202,6 +203,22 @@ The dataset consists of names labeled with their corresponding nationalities. Ea
 
 ----------
 
+### Supervised vs. Unsupervised Learning on the MNIST and USA_Housing Dataset
+
+![photo_2024-11-26_21-19-05](https://github.com/user-attachments/assets/d28c8eb1-108d-4186-97c5-d5dd5f6ae0b7)
+
+#### Overview  
+This project explores the differences between supervised and unsupervised learning using the USA_Housing and MNIST dataset, which consists of handwritten digits (0-9). We will implement and compare the performance of:
+
+1. Supervised Learning: Using algorithms like Logistic Regression to classify the digits.
+2. Unsupervised Learning: Applying techniques such as K-Means Clustering and Principal Component Analysis (PCA) to uncover patterns without labeled data.
+
+#### Objectives  
+- Understand the key differences between supervised and unsupervised learning.
+- Implement supervised learning models to classify MNIST digits.
+- Use unsupervised learning models to group similar digits and visualize data.
+
+----------
 ### Student Grade Prediction Using Multi-Layer Perceptron
 
 ![feduc-08-1106679-g005](https://github.com/user-attachments/assets/2ce3c80d-97fe-4d0b-ab7a-7328e1a496fc)
