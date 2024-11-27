@@ -1,4 +1,4 @@
-# Computer Vision and Deep Learning Projects
+# Computer Vision, Machine Learning and Deep Learning Projects
 
 Table of Contents:
 
