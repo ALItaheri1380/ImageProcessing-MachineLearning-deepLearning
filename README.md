@@ -5,6 +5,7 @@ Table of Contents:
 1. [Deep Learning](#deep-learning)
     * [VAE for mnist dataset](#vae-for-mnist-dataset)
     * [GAN for MNIST and CIFAR-10 dataset](#GAN-for-MNIST-and-CIFAR-10-dataset)
+    * [skin_diseases_for_10_case](skin-diseases-for-10-case)
     * [Cancer Prediction using Logistic Regression](#cancer-prediction-using-logistic-regression)
     * [Read Number from Image by CNN](#read-number-from-image-by-cnn)
     * [Nationality Prediction from Names Using RNN](#nationality-Prediction-from-Names-Using-RNN)
@@ -100,6 +101,29 @@ Let's walk through how to implement a GAN for both the **MNIST** (handwritten di
 4. **GAN Model**: The combination of generator and discriminator.
 5. **Training Loop**: Train the generator and discriminator iteratively.
    
+------
+### skin_diseases_for_10_case
+
+This project aims to classify skin diseases into 10 categories using a deep learning model. The model is built on EfficientNet V2 and fine-tuned for the skin disease dataset.
+
+![photo_2024-12-01_16-09-02](https://github.com/user-attachments/assets/f8ed99cd-6f88-4429-a06c-07c5845bd297)
+
+
+#### Features
+
+- **Dataset**: The dataset contains images of skin diseases with labels for each class.
+- **Model**: The model uses EfficientNet V2 as a base and adds custom layers for classification.
+- **Training**: The model is trained on a subset of the dataset, with separate training, validation, and test sets.
+- **Prediction**: The model can predict the class of a given skin disease image.
+
+#### Dataset
+
+The dataset contains images of skin diseases and their corresponding labels. It is used for training and evaluating the model. 
+
+The dataset is available in the following directory:
+```
+/kaggle/input/skin-diseases-for-10-case/IMG_CLASSES
+```
 ------
 
 ### Cancer Prediction using logistic regression
