@@ -6,16 +6,16 @@ Table of Contents:
     * [VAE for mnist dataset](#vae-for-mnist-dataset)
     * [GAN for MNIST and CIFAR-10 dataset](#GAN-for-MNIST-and-CIFAR-10-dataset)
     * [skin_diseases_for_10_case](skin-diseases-for-10-case)
-    * [Cancer Prediction using Logistic Regression](#cancer-prediction-using-logistic-regression)
     * [Read Number from Image by CNN](#read-number-from-image-by-cnn)
     * [Nationality Prediction from Names Using RNN](#nationality-Prediction-from-Names-Using-RNN)
     * [Supervised vs. Unsupervised Learning on the MNIST and USA_Housing Dataset](#Supervised-vs.-Unsupervised-Learning-on-the-MNIST-and-USA_Housing-Dataset)
     * [Advanced Classifier Model Summary](Advanced-Classifier-Model-Summary)
-    * [Student Grade Prediction Using Multi-Layer Perceptron](#Student-Grade-Prediction-Using-Multi-Layer-Perceptron)
     * [Image Classification](#image-classification)
     * [Read Text by Pytesseract](#read-text-by-pytesseract)
     * [A Simple Method to Remove Objects from Photos](#a-simple-method-to-remove-objects-from-photos)
     * [Text Classification for Hotel Comments (NLP)](#text-classification-for-hotel-comments-nlp)
+    * [Student Grade Prediction Using Multi-Layer Perceptron](#Student-Grade-Prediction-Using-Multi-Layer-Perceptron)
+    * [Cancer Prediction using Logistic Regression](#cancer-prediction-using-logistic-regression)
 2. [Computer Vision](#Computer-Vision)
     * [Seam Carving for Content-Aware Image Resizing](#seam-carving-for-content-aware-image-resizing)
     * [Detecting Improper Sitting with Computer Vision](#detecting-improper-sitting-with-computer-vision)
@@ -126,47 +126,6 @@ The dataset is available in the following directory:
 ```
 ------
 
-### Cancer Prediction using logistic regression
-
-![Annotation 2024-07-19 182442](https://github.com/user-attachments/assets/5993291c-c416-4225-bdae-e974f8357d35)
-
-
-#### Overview
-
-This project implements a logistic regression model to predict cancer diagnoses based on patient data. The data is read from a CSV file and includes various patient attributes related to cancer.
-
-#### Dataset
-
-The dataset used for training and testing the model includes the following columns:
-
-- **S/N**: Serial number
-- **Year**: Year of data collection
-- **Age**: Age of the patient
-- **Menopause**: Menopause status (1 for post-menopausal, 0 for pre-menopausal)
-- **Tumor Size (cm)**: Size of the tumor in centimeters
-- **Inv-Nodes**: Number of lymph nodes with cancer
-- **Breast**: Side of the breast (Left or Right)
-- **Metastasis**: Presence of metastasis (1 for yes, 0 for no)
-- **Breast Quadrant**: Quadrant of the breast where the tumor is located
-- **History**: Family history of cancer (1 for yes, 0 for no)
-- **Diagnosis Result**: Result of the diagnosis (Benign or Malignant)
-
-#### Instructions
-
-1. **Data Preparation**: Ensure that the dataset is in CSV format and properly formatted with the columns as described above.
-
-2. **Loading the Data**: Use a library like `pandas` to read the CSV file into a DataFrame.
-
-3. **Feature Selection**: Choose relevant features for the logistic regression model and preprocess the data as necessary (e.g., encoding categorical variables).
-
-4. **Model Training**: Split the data into training and testing sets. Train the logistic regression model using the training set.
-
-5. **Evaluation**: Evaluate the model's performance using metrics such as accuracy, precision, recall, and the ROC curve.
-
-6. **Prediction**: Use the trained model to make predictions on new data.
-
--------
-
 ### Read Number from Image by CNN
 
 ![Annotation 2024-07-19 182319](https://github.com/user-attachments/assets/9a5e8e86-1e40-49b4-b574-f910d4dcc2ae)
@@ -264,36 +223,6 @@ The AdvancedClassifier class is designed for binary classification using PyTorch
 
 This setup aims to effectively learn from complex patterns in the provided datasets.
 
-----------
-
-### Student Grade Prediction Using Multi-Layer Perceptron
-
-![feduc-08-1106679-g005](https://github.com/user-attachments/assets/2ce3c80d-97fe-4d0b-ab7a-7328e1a496fc)
-
-
-#### Overview
-
-This project uses a Multi-Layer Perceptron (MLP) to predict student grades based on various input features. The MLP model is trained to make predictions on student performance by learning from historical data.
-
-#### Dataset
-
-The dataset contains features related to student performance and the target variable is the student's grade. Each record includes input features such as study hours, sleep hours
-, and other relevant attributes.
-
-#### Instructions
-
-1. **Data Preparation**: Ensure that the dataset is organized with relevant features and the target variable (grades). The dataset should be in a format compatible with the provided code, typically CSV or similar.
-
-2. **Loading the Data**: Use the provided Jupyter Notebook to load and preprocess the dataset. This includes handling missing values, encoding categorical variables, and splitting the data into training and test sets.
-
-3. **Model Architecture**: The notebook defines an MLP model with one or more hidden layers. Review the architecture and adjust the number of layers, neurons, activation functions, and other parameters as needed.
-
-4. **Training the Model**: Train the MLP model using the training dataset. Monitor performance metrics such as accuracy or mean squared error on the validation set.
-
-5. **Evaluation**: Evaluate the model's performance on the test set using metrics such as accuracy, mean squared error, or R-squared. Fine-tune the model parameters as necessary to improve performance.
-
-6. **Prediction**: Use the trained MLP model to make predictions on new student data.
-
 -------
 
 ### image classification
@@ -367,6 +296,76 @@ The dataset used for this project consists of 15,000 hotel comments, which are s
 5. **Evaluation**: Evaluate the model’s performance using metrics such as accuracy, precision, recall, and F1 score.
 6. **Prediction**: Use the trained model to predict ratings for new comments.
 
+------------
+
+### Cancer Prediction using logistic regression
+
+![Annotation 2024-07-19 182442](https://github.com/user-attachments/assets/5993291c-c416-4225-bdae-e974f8357d35)
+
+
+#### Overview
+
+This project implements a logistic regression model to predict cancer diagnoses based on patient data. The data is read from a CSV file and includes various patient attributes related to cancer.
+
+#### Dataset
+
+The dataset used for training and testing the model includes the following columns:
+
+- **S/N**: Serial number
+- **Year**: Year of data collection
+- **Age**: Age of the patient
+- **Menopause**: Menopause status (1 for post-menopausal, 0 for pre-menopausal)
+- **Tumor Size (cm)**: Size of the tumor in centimeters
+- **Inv-Nodes**: Number of lymph nodes with cancer
+- **Breast**: Side of the breast (Left or Right)
+- **Metastasis**: Presence of metastasis (1 for yes, 0 for no)
+- **Breast Quadrant**: Quadrant of the breast where the tumor is located
+- **History**: Family history of cancer (1 for yes, 0 for no)
+- **Diagnosis Result**: Result of the diagnosis (Benign or Malignant)
+
+#### Instructions
+
+1. **Data Preparation**: Ensure that the dataset is in CSV format and properly formatted with the columns as described above.
+
+2. **Loading the Data**: Use a library like `pandas` to read the CSV file into a DataFrame.
+
+3. **Feature Selection**: Choose relevant features for the logistic regression model and preprocess the data as necessary (e.g., encoding categorical variables).
+
+4. **Model Training**: Split the data into training and testing sets. Train the logistic regression model using the training set.
+
+5. **Evaluation**: Evaluate the model's performance using metrics such as accuracy, precision, recall, and the ROC curve.
+
+6. **Prediction**: Use the trained model to make predictions on new data.
+
+-------
+
+### Student Grade Prediction Using Multi-Layer Perceptron
+
+![feduc-08-1106679-g005](https://github.com/user-attachments/assets/2ce3c80d-97fe-4d0b-ab7a-7328e1a496fc)
+
+
+#### Overview
+
+This project uses a Multi-Layer Perceptron (MLP) to predict student grades based on various input features. The MLP model is trained to make predictions on student performance by learning from historical data.
+
+#### Dataset
+
+The dataset contains features related to student performance and the target variable is the student's grade. Each record includes input features such as study hours, sleep hours
+, and other relevant attributes.
+
+#### Instructions
+
+1. **Data Preparation**: Ensure that the dataset is organized with relevant features and the target variable (grades). The dataset should be in a format compatible with the provided code, typically CSV or similar.
+
+2. **Loading the Data**: Use the provided Jupyter Notebook to load and preprocess the dataset. This includes handling missing values, encoding categorical variables, and splitting the data into training and test sets.
+
+3. **Model Architecture**: The notebook defines an MLP model with one or more hidden layers. Review the architecture and adjust the number of layers, neurons, activation functions, and other parameters as needed.
+
+4. **Training the Model**: Train the MLP model using the training dataset. Monitor performance metrics such as accuracy or mean squared error on the validation set.
+
+5. **Evaluation**: Evaluate the model's performance on the test set using metrics such as accuracy, mean squared error, or R-squared. Fine-tune the model parameters as necessary to improve performance.
+
+6. **Prediction**: Use the trained MLP model to make predictions on new student data.
    
 --------------------------------------------------------------------------------------------------------------------
 
