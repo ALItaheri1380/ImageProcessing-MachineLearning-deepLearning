@@ -1,1 +1,1 @@
-Some basic code and concepts from computer vision, image processing, deep learning, and machine learning.
+Some basic code and concepts from computer vision, image processing, deep learning, and machine learning. This repository is written in Python only. For more computer vision code, see the Computer-Vision Repository.
